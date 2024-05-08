@@ -1,35 +1,37 @@
 import React from "react";
+import { AppBar, Toolbar, Typography } from "@mui/material";
 
 function Navbar() {
   return (
-    <nav className="navbar">
-      <ul>
-        <li>
-          <a href="#home">home</a>
-        </li>
-        <li>
-          <a href="#about">about</a>
-        </li>
-        <li>
-          <a href="#service">services</a>
-        </li>
-        <li>
-          <a href="#portfolio">portfolio</a>
-        </li>
-        <li>
-          <a href="#team">team</a>
-        </li>
-        <li>
-          <a href="careers.html">career</a>
-        </li>
-        <li>
-          <a href="#contact">contact</a>
-        </li>
-        <li>
-          <a href="#faq">FAQ</a>
-        </li>
-      </ul>
-    </nav>
+    <AppBar position="static" sx={{ backgroundColor: "#0E1011" }}>
+      <Toolbar>
+        <img src="logo.png" alt="Logo" style={{ height: "50px", marginRight: "auto" }} />
+        <Typography variant="h6" sx={{ marginLeft: "20px" }}>
+          <a href="#home" style={{ textDecoration: "none", color: "inherit" }}>home</a>
+        </Typography>
+        <Typography variant="h6" sx={{ marginLeft: "20px" }}>
+          <a href="#about" style={{ textDecoration: "none", color: "inherit" }}>about</a>
+        </Typography>
+        <Typography variant="h6" sx={{ marginLeft: "20px" }}>
+          <a href="#service" style={{ textDecoration: "none", color: "inherit" }}>services</a>
+        </Typography>
+        <Typography variant="h6" sx={{ marginLeft: "20px" }}>
+          <a href="#portfolio" style={{ textDecoration: "none", color: "inherit" }}>portfolio</a>
+        </Typography>
+        <Typography variant="h6" sx={{ marginLeft: "20px" }}>
+          <a href="#team" style={{ textDecoration: "none", color: "inherit" }}>team</a>
+        </Typography>
+        <Typography variant="h6" sx={{ marginLeft: "20px" }}>
+          <a href="careers.html" style={{ textDecoration: "none", color: "inherit" }}>career</a>
+        </Typography>
+        <Typography variant="h6" sx={{ marginLeft: "20px" }}>
+          <a href="#contact" style={{ textDecoration: "none", color: "inherit" }}>contact</a>
+        </Typography>
+        <Typography variant="h6" sx={{ marginLeft: "20px" }}>
+          <a href="#faq" style={{ textDecoration: "none", color: "inherit" }}>FAQ</a>
+        </Typography>
+      </Toolbar>
+    </AppBar>
   );
 }
 

@@ -17,9 +17,6 @@ function App() {
   return (
     <div className="App">
       <header className="header">
-        <a href="#" className="logo">
-          <img src="./images/image.png" alt="Logo" />
-        </a>
         <div className="fas fa-bars"></div>
         <Navbar />
       </header>

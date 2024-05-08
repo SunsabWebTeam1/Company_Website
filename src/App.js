@@ -12,7 +12,6 @@ import FAQ from "./components/FAQ";
 import MainComponent from "./components/MainComponent"; // Importing MainComponent
 import "./App.css"; // Already existing global styles
 import "./styles/style.css"; // Assuming you placed style.css under src/styles/
-import "./styles/careers.css"; // Assuming you placed careers.css under src/styles/
 
 function App() {
   return (

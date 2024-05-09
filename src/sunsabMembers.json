@@ -1,0 +1,42 @@
+[{
+    "id": 0,
+    "name": "Lead 1",
+    "title": "Manager",
+    "imgURL": "/images/pexels-andrea-piacquadio-845434.jpg",
+    "alt": "Lead 1"
+},
+{
+    "id": 1,
+    "name": "Lead 2",
+    "title": "Manager",
+    "imgURL": "/images/pexels-andrea-piacquadio-845434.jpg",
+    "alt": "Lead 2"
+},
+{
+    "id": 2,
+    "name": "Member 1",
+    "title": "Member",
+    "imgURL": "/images/pexels-andrea-piacquadio-845434.jpg",
+    "alt": "Member 1"
+},
+{
+    "id": 3,
+    "name": "Member 2",
+    "title": "Member",
+    "imgURL": "/images/pexels-andrea-piacquadio-845434.jpg",
+    "alt": "Member 2"
+},
+{
+    "id": 4,
+    "name": "Member 3",
+    "title": "Member",
+    "imgURL": "/images/pexels-andrea-piacquadio-845434.jpg",
+    "alt": "Member 3"
+},
+{
+    "id": 5,
+    "name": "Member 4",
+    "title": "Member",
+    "imgURL": "/images/pexels-andrea-piacquadio-845434.jpg",
+    "alt": "Member 4"
+}]

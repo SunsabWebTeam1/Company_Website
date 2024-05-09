@@ -1,35 +1,62 @@
 import React from "react";
+import '../styles/expertise.css';
+//Images
+import photoShopImage from '../images/ExpertiseImg/PhotoShop.png'
+import JavaScriptImage from '../images/ExpertiseImg/JavaScript.png'
+
+//icons
+import ChevronRightSharpIcon from '@mui/icons-material/ChevronRightSharp';
+
 
 function Services() {
   return (
-    <div className="pt-5 pb-5" style={{ backgroundColor: "#f2f2f2" }}>
-      <div className="container">
-        <div className="row">
-          <div className="section-head col-sm-12" id="service">
-            <h1>Our Services</h1>
-            <p>
-              We help you to build high-quality digital solutions and products
-              as well as deliver a wide range of related professional services.
-              We are providing world-class service to our clients.
-            </p>
+    <div className="expertise">
+      <div className="expertiseContent">
+        <h1 className="expertiseTitle">EXPERTISE</h1>
+        <p className="expertiseContentWords">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuere mattis leo imperdiet suscipit. 
+          Vivamus felis odio, facilisis in augue sed, rutrum sodales metus. Interdum et malesuada fames ac ante 
+          ipsum primis in faucibus. Curabitur in volutpat dolor. Aenean lobortis enim nec maximus tempus. Praesent 
+          id purus eget ex gravida consequat molestie venenatis sapien. Integer tortor sem, auctor vel interdum at, 
+          commodo ut nibh. Donec ut tristique dui. In posuere orci massa, ac efficitur nibh rutrum sed. In egestas, 
+          mauris maximus efficitur aliquet, nisl velit commodo sapien, elementum cursus neque est id neque. 
+          Vivamus sodales risus non quam euismod fermentum. Donec sagittis aliquam tincidunt. Pellentesque 
+          eget libero euismod lorem hendrerit sodales posuere in enim. Nulla non velit vitae sem volutpat imperdiet
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuere mattis leo imperdiet suscipit. 
+          Vivamus felis odio, facilisis in augue sed, rutrum sodales metus. Interdum et malesuada fames ac ante 
+          ipsum primis in faucibus. Curabitur in volutpat dolor. Aenean lobortis enim nec maximus tempus. Praesent 
+          id purus eget ex gravida consequat molestie venenatis sapien. Integer tortor sem, auctor vel interdum at, 
+          commodo ut nibh. Donec ut tristique dui. In posuere orci massa, ac efficitur nibh rutrum sed. In egestas, 
+          mauris maximus efficitur aliquet, nisl velit commodo sapien, elementum cursus neque est id neque. 
+          Vivamus sodales risus non quam euismod fermentum. Donec sagittis aliquam tincidunt. Pellentesque 
+          eget libero euismod lorem hendrerit sodales posuere in enim. Nulla non velit vitae sem volutpat imperdiet
+        </p>
+        <div className="expertiseCirlceContent">
+          <div className="expertiseCirlce">
+            <h3 className="expertiseCirlceNumber">1</h3>
+            <h3 className="expertiseCirlceWords">Concept</h3>
           </div>
-          {/* Example Service */}
-          <div className="col-lg-4 col-sm-6">
-            <div className="item">
-              {" "}
-              <span className="icon feature_box_col_one">
-                <i className="fa fa-laptop"></i>
-              </span>
-              <h6>Web App Development</h6>
-              <p>
-                Our Custom Web Development Services Include Both Front-End And
-                Back-End Development. Whether It Is Enhancing An Existing App Or
-                Architecting An Enterprise App, Our Developers Are Up For The
-                Challenge.
-              </p>
-            </div>
+          <div className="expertiseSmallCirlce"><ChevronRightSharpIcon style={{fontSize: '4rem'}}/></div>
+          <div className="expertiseCirlce">
+            <h3 className="expertiseCirlceNumber">2</h3>
+            <h3 className="expertiseCirlceWords">Design</h3>
           </div>
-          {/* More services can be added similarly */}
+          <div className="expertiseSmallCirlce"><ChevronRightSharpIcon style={{fontSize: '4rem'}}/></div>
+          <div className="expertiseCirlce">
+            <h3 className="expertiseCirlceNumber">3</h3>
+            <h3 className="expertiseCirlceWords">Code</h3>
+          </div>
+          <div className="expertiseSmallCirlce"><ChevronRightSharpIcon style={{fontSize: '4rem'}}/></div>
+          <div className="expertiseCirlce">
+            <h3 className="expertiseCirlceNumber">4</h3>
+            <h3 className="expertiseCirlceWords">Launch</h3>
+          </div>
+        </div>
+        <div className="expertiseSkills">
+          <h1>Skills</h1>
+          <div className="expertiseSkillsBoxContent">
+            <div className="expertiseSkillsBox"><img src={photoShopImage} alt="photoShopImage" style={{ width: '5vh', height: 'auto' }}/></div>
+            <div className="expertiseSkillsBox"><img src={JavaScriptImage} alt="JavaScriptImage" style={{ width: '5vh', height: 'auto' }}/></div>
+          </div>
         </div>
       </div>
     </div>

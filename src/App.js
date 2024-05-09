@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import FAQ from "./components/FAQ";
 import "./App.css";
 import "./styles/style.css";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Navbar />
         </header>
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
@@ -30,7 +32,7 @@ function App() {
         </Routes>
         <div className="footer">
           <div className="container">
-            <div className="row">{/* Footer content here */}</div>
+            <div className="row"><Footer/></div>
           </div>
         </div>
         <a href="#" className="back-to-top">

@@ -23,9 +23,6 @@ function Navbar() {
           <Link to="/team" style={{ textDecoration: "none", color: "inherit" }}>Team</Link>
         </Typography>
         <Typography variant="h6" sx={{ marginLeft: "20px" }}>
-          <Link to="/careers" style={{ textDecoration: "none", color: "inherit" }}>Careers</Link>
-        </Typography>
-        <Typography variant="h6" sx={{ marginLeft: "20px" }}>
           <Link to="/contact" style={{ textDecoration: "none", color: "inherit" }}>Contact</Link>
         </Typography>
         <Typography variant="h6" sx={{ marginLeft: "20px" }}>

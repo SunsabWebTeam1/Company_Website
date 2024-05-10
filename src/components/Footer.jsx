@@ -9,7 +9,7 @@ function Footer() {
             className="row"
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(2, 1fr)",
+              gridTemplateColumns: "repeat(1, 1fr)",
               gridGap: 20,
             }}
           >
@@ -29,19 +29,6 @@ function Footer() {
                 <strong>Email:</strong> info@example.com
                 <br />
               </p>
-            </div>
-
-            <div className="col-lg-3 col-md-6 footer-newsletter">
-              <h4>Subscription</h4>
-              <p>
-                With Our Skills Put Together, You Get An Ensemble Capable Of
-                Doing Anything And Everything Your Brand Needs. Subscribe Here
-                To Get Our Latest Updates.
-              </p>
-              <form action="" method="post">
-                <input type="email" name="email" />
-                <input type="submit" value="Subscribe" />
-              </form>
             </div>
           </div>
         </div>

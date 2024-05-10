@@ -21,6 +21,8 @@ function Services() {
               display: "grid",
               gridTemplateColumns: "repeat(3, 1fr)",
               gridGap: 20,
+              marginLeft: "150px",
+              marginRight: "150px",
             }}
           >
             <div className="column" style={{ paddingLeft: "10px" }}>

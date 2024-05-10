@@ -170,7 +170,7 @@ body {
 }
 
 .home {
-  min-height: 100vh;
+  min-height: 80vh;
   width: 100vw;
   background-image: url(../images/LP-Image.png);
   background-size: cover;
@@ -227,7 +227,7 @@ body {
 }
 
 .about {
-  min-height: 55vh;
+  min-height: 45vh;
   width: 100vw;
   top: -3rem;
   text-align: center;
@@ -286,7 +286,7 @@ body {
   transition: all 0.5s ease 0s;
 }
 .item:hover {
-  background: #efbb36;
+  background: #525252;
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
@@ -412,7 +412,7 @@ body {
   transition: all 0.7 ease 0s;
 }
 .item:hover {
-  background-image: linear-gradient(to bottom right, #efbb35 0%, #0e1011 100%);
+  background-image: linear-gradient(to bottom right, #525252 0%, #525252 100%);
   background-position: right;
   transition: background-position 3s;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
@@ -906,7 +906,7 @@ body {
   left: 1;
   bottom: 0;
   height: 0;
-  width: 130px;
+  width: 110px;
   border-bottom: 2px solid #fff;
 }
 

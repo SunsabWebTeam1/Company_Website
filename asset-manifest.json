@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Company_Website/static/css/main.29eb276c.css",
-    "main.js": "/Company_Website/static/js/main.f1873cab.js",
+    "main.css": "/Company_Website/static/css/main.30598a85.css",
+    "main.js": "/Company_Website/static/js/main.bff2d842.js",
     "static/media/LP-Image.png": "/Company_Website/static/media/LP-Image.1023a7156992de35177d.png",
     "static/media/img3.jpg": "/Company_Website/static/media/img3.74e8ef9643b54ebb3bdf.jpg",
     "static/media/img2.jpg": "/Company_Website/static/media/img2.977e3f6b01a448cdee09.jpg",
@@ -9,11 +9,11 @@
     "static/media/logo.png": "/Company_Website/static/media/logo.a99dc009273f7ea30b6f.png",
     "static/media/logo.svg": "/Company_Website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Company_Website/index.html",
-    "main.29eb276c.css.map": "/Company_Website/static/css/main.29eb276c.css.map",
-    "main.f1873cab.js.map": "/Company_Website/static/js/main.f1873cab.js.map"
+    "main.30598a85.css.map": "/Company_Website/static/css/main.30598a85.css.map",
+    "main.bff2d842.js.map": "/Company_Website/static/js/main.bff2d842.js.map"
   },
   "entrypoints": [
-    "static/css/main.29eb276c.css",
-    "static/js/main.f1873cab.js"
+    "static/css/main.30598a85.css",
+    "static/js/main.bff2d842.js"
   ]
 }

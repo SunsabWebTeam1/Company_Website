@@ -21,9 +21,9 @@ function Footer() {
               <p>
                 1300 Center Avenue
                 <br />
-                Fresno, California
+                Calgary, Alberta
                 <br />
-                United States <br />
+                Canada <br />
                 <strong>Phone:</strong> +123-456-7890
                 <br />
                 <strong>Email:</strong> info@example.com
@@ -51,7 +51,11 @@ function Footer() {
         <div className="row align-items-center">
           <div
             className="col-md-6 copyright"
-            style={{ color: "#fff", fontSize: "1.3rem", paddingLeft: "25px" }}
+            style={{
+              color: "#0e1011",
+              fontSize: "1.3rem",
+              paddingLeft: "25px",
+            }}
           >
             Copyright &copy; 2024 Sunsab Website. All Rights Reserved.
           </div>

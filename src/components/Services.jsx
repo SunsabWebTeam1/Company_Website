@@ -1,35 +1,47 @@
 import React from "react";
+import ComputerIcon from "@mui/icons-material/Computer";
+import PersonIcon from "@mui/icons-material/PersonOutlineOutlined";
+import SettingsIcon from "@mui/icons-material/SettingsOutlined";
 
 function Services() {
   return (
-    <div className="pt-5 pb-5" style={{ backgroundColor: "#f2f2f2" }}>
+    <div className="pt-5 pb-5" style={{ backgroundColor: "#ffffff" }}>
       <div className="container">
         <div className="row">
           <div className="section-head col-sm-12" id="service">
-            <h1>Our Services</h1>
+            <h1>Vision</h1>
             <p>
               We help you to build high-quality digital solutions and products
               as well as deliver a wide range of related professional services.
               We are providing world-class service to our clients.
             </p>
           </div>
-          {/* Example Service */}
-          <div className="col-lg-4 col-sm-6">
-            <div className="item">
-              {" "}
-              <span className="icon feature_box_col_one">
-                <i className="fa fa-laptop"></i>
-              </span>
-              <h6>Web App Development</h6>
-              <p>
-                Our Custom Web Development Services Include Both Front-End And
-                Back-End Development. Whether It Is Enhancing An Existing App Or
-                Architecting An Enterprise App, Our Developers Are Up For The
-                Challenge.
-              </p>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(3, 1fr)",
+              gridGap: 20,
+            }}
+          >
+            <div className="column" style={{ paddingLeft: "10px" }}>
+              <div className="item">
+                <h6>PROJECTS</h6>
+                <ComputerIcon style={{ color: "#FED136", fontSize: 100 }} />
+              </div>
+            </div>
+            <div className="column">
+              <div className="item">
+                <h6>THE TEAM</h6>
+                <PersonIcon style={{ color: "#FED136", fontSize: 100 }} />
+              </div>
+            </div>
+            <div className="column" style={{ paddingRight: "10px" }}>
+              <div className="item">
+                <h6>OUR EXPERTISE</h6>
+                <SettingsIcon style={{ color: "#FED136", fontSize: 100 }} />
+              </div>
             </div>
           </div>
-          {/* More services can be added similarly */}
         </div>
       </div>
     </div>

@@ -9,7 +9,8 @@ import Portfolio from "./components/Portfolio";
 import Team from "./components/Team";
 import Contact from "./components/Contact";
 import FAQ from "./components/FAQ";
-import MainComponent from "./components/MainComponent"; // Importing MainComponent
+import Footer from "./components/Footer";
+
 import "./App.css"; // Already existing global styles
 import "./styles/style.css"; // Assuming you placed style.css under src/styles/
 
@@ -23,18 +24,7 @@ function App() {
       <Home />
       <About />
       <Services />
-      <Portfolio />
-      <Team />
-      <Contact />
-      <FAQ />
-      <div className="footer">
-        <div className="container">
-          <div className="row">{/* Footer content here */}</div>
-        </div>
-      </div>
-      <a href="#" className="back-to-top">
-        <i className="ion-ios-arrow-up"></i>
-      </a>
+      <Footer />
     </div>
   );
 }

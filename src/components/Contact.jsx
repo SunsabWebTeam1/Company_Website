@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import '../styles/contact.css';
+import transition from '../transition';
 //images
 import phoneImage from '../images/contactImg/phoneIcon.png';
 import emailImage from '../images/contactImg/emailIcon.png';
@@ -101,4 +102,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default transition(Contact);

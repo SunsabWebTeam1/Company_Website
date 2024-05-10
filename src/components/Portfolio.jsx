@@ -1,5 +1,5 @@
 import React from "react";
-
+import transition from "../transition";
 function Portfolio() {
   return (
     <div className="pt-5 pb-5">
@@ -39,4 +39,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default transition(Portfolio);

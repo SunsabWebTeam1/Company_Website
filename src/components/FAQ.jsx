@@ -1,5 +1,5 @@
 import React from "react";
-
+import transition from "../transition";
 function FAQ() {
   return (
     <section
@@ -34,4 +34,4 @@ function FAQ() {
   );
 }
 
-export default FAQ;
+export default transition(FAQ);

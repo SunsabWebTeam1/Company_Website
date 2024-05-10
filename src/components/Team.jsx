@@ -1,5 +1,5 @@
 import React from "react";
-
+import transition from "../transition";
 function Team() {
   return (
     <section className="team" style={{ marginTop: "7rem" }}>
@@ -44,4 +44,4 @@ function Team() {
   );
 }
 
-export default Team;
+export default transition(Team);

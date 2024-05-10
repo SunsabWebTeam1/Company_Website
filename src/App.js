@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -11,17 +11,23 @@ import FAQ from "./components/FAQ";
 import "./App.css";
 import "./styles/style.css";
 import Footer from "./components/Footer";
+import { AnimatePresence } from "framer-motion";
+
+import { Routes, Route, useLocation } from "react-router-dom"
 
 function App() {
+
+  const location = useLocation();
   return (
-    <Router>
+
       <div className="App">
         <header className="header">
           <div className="fas fa-bars"></div>
           <Navbar />
         </header>
-        <Routes>
-          <Route path="/" element={<Home />} />
+        <AnimatePresence mode="wait">
+        <Routes location={location} key={location.path}>
+          <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
@@ -30,16 +36,19 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/faq" element={<FAQ />} />
         </Routes>
+        
         <div className="footer">
           <div className="container">
             <div className="row"><Footer/></div>
           </div>
         </div>
-        <a href="#" className="back-to-top">
+        </AnimatePresence>
+        <a className="back-to-top">
           <i className="ion-ios-arrow-up"></i>
         </a>
+        
       </div>
-    </Router>
+    
   );
 }
 

@@ -1,5 +1,6 @@
 import React from "react";
 import '../styles/expertise.css';
+import transition from "../transition";
 //Images
 import photoShopImage from '../images/ExpertiseImg/PhotoShop.png'
 import JavaScriptImage from '../images/ExpertiseImg/JavaScript.png'
@@ -63,4 +64,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default transition(Services);

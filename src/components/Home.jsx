@@ -1,5 +1,5 @@
 import React from "react";
-
+import transition from "../transition";
 function Home() {
   return (
     <section id="home" className="home">
@@ -12,4 +12,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default transition(Home);

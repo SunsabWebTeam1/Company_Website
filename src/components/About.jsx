@@ -1,4 +1,5 @@
 import React from "react";
+import transition from "../transition";
 
 function About() {
   return (
@@ -23,4 +24,4 @@ function About() {
   );
 }
 
-export default About;
+export default transition(About);

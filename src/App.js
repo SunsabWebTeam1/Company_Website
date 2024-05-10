@@ -6,7 +6,7 @@ import { AnimatePresence } from "framer-motion";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Expertise from "./components/Expertise";
 import LandingPage from "./components/LandingPage";
-import Portfolio from "./components/Portfolio";
+import Portfolio from "./portfolio/Portfolio";
 import Team from "./components/Team";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";

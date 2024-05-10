@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <header className="header">
         <div className="fas fa-bars"></div>
-        <Navbar />
+        {/* <Navbar /> */} {/* Navbar broken */}
       </header>
       <Home />
       <About />

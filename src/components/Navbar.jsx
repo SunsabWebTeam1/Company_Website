@@ -15,12 +15,6 @@ function Navbar() {
           <Link to="/landingpage" style={{ textDecoration: "none", color: "inherit" }}>Home</Link>
         </Typography>
         <Typography variant="h6" sx={{ marginLeft: "20px" }}>
-          <Link to="/about" style={{ textDecoration: "none", color: "inherit" }}>About</Link>
-        </Typography>
-        <Typography variant="h6" sx={{ marginLeft: "20px" }}>
-          <Link to="/services" style={{ textDecoration: "none", color: "inherit" }}>Services</Link>
-        </Typography>
-        <Typography variant="h6" sx={{ marginLeft: "20px" }}>
           <Link to="/expertise" style={{ textDecoration: "none", color: "inherit" }}>Expertise</Link>
         </Typography>
         <Typography variant="h6" sx={{ marginLeft: "20px" }}>
@@ -31,9 +25,6 @@ function Navbar() {
         </Typography>
         <Typography variant="h6" sx={{ marginLeft: "20px" }}>
           <Link to="/contact" style={{ textDecoration: "none", color: "inherit" }}>Contact</Link>
-        </Typography>
-        <Typography variant="h6" sx={{ marginLeft: "20px" }}>
-          <Link to="/faq" style={{ textDecoration: "none", color: "inherit" }}>FAQ</Link>
         </Typography>
       </Toolbar>
     </AppBar>

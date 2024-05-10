@@ -6,15 +6,16 @@ function Navbar() {
   return (
     <AppBar position="static" sx={{ backgroundColor: "#0E1011" }}>
       <Toolbar>
-        <img src="logo.png" alt="Logo" style={{ height: "50px", marginRight: "auto" }} />
+        <img
+          src={require("../images/logo.png")}
+          alt="Logo"
+          style={{ height: "50px", marginRight: "auto" }}
+        />
         <Typography variant="h6" sx={{ marginLeft: "20px" }}>
-          <Link to="/home" style={{ textDecoration: "none", color: "inherit" }}>Home</Link>
+          <Link to="/landingpage" style={{ textDecoration: "none", color: "inherit" }}>Home</Link>
         </Typography>
         <Typography variant="h6" sx={{ marginLeft: "20px" }}>
-          <Link to="/about" style={{ textDecoration: "none", color: "inherit" }}>About</Link>
-        </Typography>
-        <Typography variant="h6" sx={{ marginLeft: "20px" }}>
-          <Link to="/services" style={{ textDecoration: "none", color: "inherit" }}>Services</Link>
+          <Link to="/expertise" style={{ textDecoration: "none", color: "inherit" }}>Expertise</Link>
         </Typography>
         <Typography variant="h6" sx={{ marginLeft: "20px" }}>
           <Link to="/portfolio" style={{ textDecoration: "none", color: "inherit" }}>Portfolio</Link>
@@ -24,9 +25,6 @@ function Navbar() {
         </Typography>
         <Typography variant="h6" sx={{ marginLeft: "20px" }}>
           <Link to="/contact" style={{ textDecoration: "none", color: "inherit" }}>Contact</Link>
-        </Typography>
-        <Typography variant="h6" sx={{ marginLeft: "20px" }}>
-          <Link to="/faq" style={{ textDecoration: "none", color: "inherit" }}>FAQ</Link>
         </Typography>
       </Toolbar>
     </AppBar>

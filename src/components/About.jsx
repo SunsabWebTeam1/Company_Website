@@ -1,4 +1,5 @@
 import React from "react";
+import transition from "../transition";
 
 function About() {
   return (
@@ -14,13 +15,13 @@ function About() {
             With our skills put together, you get an ensemble capable of doing
             anything and everything your brand needs.
           </p>
-          <a href="#">
+          {/* <a href="#">
             <button className="btn">Read More</button>
-          </a>
+          </a> */}
         </div>
       </div>
     </section>
   );
 }
 
-export default About;
+export default transition(About);

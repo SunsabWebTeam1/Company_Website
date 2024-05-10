@@ -1,5 +1,6 @@
 import React from "react";
 import { AppBar, Toolbar, Typography } from "@mui/material";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -11,39 +12,25 @@ function Navbar() {
           style={{ height: "50px", marginRight: "auto" }}
         />
         <Typography variant="h6" sx={{ marginLeft: "20px" }}>
-          <a href="#home" style={{ textDecoration: "none", color: "inherit" }}>
-            home
-          </a>
+          <Link to="/home" style={{ textDecoration: "none", color: "inherit" }}>Home</Link>
         </Typography>
         <Typography variant="h6" sx={{ marginLeft: "20px" }}>
-          <a
-            href="#service"
-            style={{ textDecoration: "none", color: "inherit" }}
-          >
-            services
-          </a>
+          <Link to="/about" style={{ textDecoration: "none", color: "inherit" }}>About</Link>
         </Typography>
         <Typography variant="h6" sx={{ marginLeft: "20px" }}>
-          <a
-            href="#portfolio"
-            style={{ textDecoration: "none", color: "inherit" }}
-          >
-            portfolio
-          </a>
+          <Link to="/services" style={{ textDecoration: "none", color: "inherit" }}>Services</Link>
         </Typography>
         <Typography variant="h6" sx={{ marginLeft: "20px" }}>
-          <a href="#team" style={{ textDecoration: "none", color: "inherit" }}>
-            team
-          </a>
+          <Link to="/portfolio" style={{ textDecoration: "none", color: "inherit" }}>Portfolio</Link>
         </Typography>
-
         <Typography variant="h6" sx={{ marginLeft: "20px" }}>
-          <a
-            href="#contact"
-            style={{ textDecoration: "none", color: "inherit" }}
-          >
-            contact
-          </a>
+          <Link to="/team" style={{ textDecoration: "none", color: "inherit" }}>Team</Link>
+        </Typography>
+        <Typography variant="h6" sx={{ marginLeft: "20px" }}>
+          <Link to="/contact" style={{ textDecoration: "none", color: "inherit" }}>Contact</Link>
+        </Typography>
+        <Typography variant="h6" sx={{ marginLeft: "20px" }}>
+          <Link to="/faq" style={{ textDecoration: "none", color: "inherit" }}>FAQ</Link>
         </Typography>
       </Toolbar>
     </AppBar>

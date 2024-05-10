@@ -2,7 +2,7 @@ import React from "react";
 import ComputerIcon from "@mui/icons-material/Computer";
 import PersonIcon from "@mui/icons-material/PersonOutlineOutlined";
 import SettingsIcon from "@mui/icons-material/SettingsOutlined";
-
+import transition from "../transition";
 function Services() {
   return (
     <div className="pt-5 pb-5" style={{ backgroundColor: "#ffffff" }}>
@@ -50,4 +50,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default transition(Services);

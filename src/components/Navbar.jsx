@@ -6,7 +6,11 @@ function Navbar() {
   return (
     <AppBar position="static" sx={{ backgroundColor: "#0E1011" }}>
       <Toolbar>
-        <img src="logo.png" alt="Logo" style={{ height: "50px", marginRight: "auto" }} />
+        <img
+          src={require("../images/logo.png")}
+          alt="Logo"
+          style={{ height: "50px", marginRight: "auto" }}
+        />
         <Typography variant="h6" sx={{ marginLeft: "20px" }}>
           <Link to="/home" style={{ textDecoration: "none", color: "inherit" }}>Home</Link>
         </Typography>

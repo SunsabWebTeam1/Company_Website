@@ -14,6 +14,7 @@ import Footer from "./components/Footer";
 import { AnimatePresence } from "framer-motion";
 
 import { Routes, Route, useLocation } from "react-router-dom"
+import Expertise from "./components/Expertise";
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/expertise" element={<Expertise />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />

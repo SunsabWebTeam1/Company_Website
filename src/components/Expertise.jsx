@@ -11,7 +11,7 @@ import ChevronRightSharpIcon from '@mui/icons-material/ChevronRightSharp';
 
 function Expertise() {
   return (
-    <div className="expertise">
+    <div id="expertise" className="expertise">
       <div className="expertiseContent">
         <h1 className="expertiseTitle">EXPERTISE</h1>
         <p className="expertiseContentWords">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuere mattis leo imperdiet suscipit. 

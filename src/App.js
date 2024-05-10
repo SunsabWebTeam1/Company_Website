@@ -15,6 +15,7 @@ import { AnimatePresence } from "framer-motion";
 
 import { Routes, Route, useLocation } from "react-router-dom"
 import Expertise from "./components/Expertise";
+import LandingPage from "./components/LandingPage";
 
 function App() {
 
@@ -28,8 +29,7 @@ function App() {
         </header>
         <AnimatePresence mode="wait">
         <Routes location={location} key={location.path}>
-          <Route index element={<Home />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="/landingpage" element={<LandingPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/expertise" element={<Expertise />} />
@@ -39,16 +39,8 @@ function App() {
           <Route path="/faq" element={<FAQ />} />
         </Routes>
         
-        <div className="footer">
-          <div className="container">
-            <div className="row"><Footer/></div>
-          </div>
-        </div>
         </AnimatePresence>
-        <a className="back-to-top">
-          <i className="ion-ios-arrow-up"></i>
-        </a>
-        
+        <Footer />
       </div>
     
   );

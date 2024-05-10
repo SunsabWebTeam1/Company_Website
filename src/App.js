@@ -1,21 +1,18 @@
 import React from "react";
-// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import "./App.css";
 import Home from "./components/Home";
 import About from "./components/About";
 import Services from "./components/Services";
-import Portfolio from "./components/Portfolio";
-import Team from "./components/Team";
-import Contact from "./components/Contact";
-import FAQ from "./components/FAQ";
-import "./App.css";
-import "./styles/style.css";
 import Footer from "./components/Footer";
 import { AnimatePresence } from "framer-motion";
 
 import { Routes, Route, useLocation } from "react-router-dom"
 import Expertise from "./components/Expertise";
 import LandingPage from "./components/LandingPage";
+
+import "./App.css"; // Already existing global styles
+import "./styles/style.css"; // Assuming you placed style.css under src/styles/
 
 function App() {
 

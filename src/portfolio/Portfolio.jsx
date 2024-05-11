@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Container from '@mui/material/Container';
 import Project1 from "./project1";
 import Project2 from "./project2";
@@ -13,15 +13,18 @@ import 'swiper/css/pagination';
 import '../styles/portfolio.css';
 
 // import required modules
-
+import SpringModal from "./data/modal";
 
 function Portfolio() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
       <div className="portfolio">
         <div className="portfolioContent">
           <h1 className="portfolioTitle">PROJECTS</h1>
             <div className="projects">
-              <Project1/>
+              <div onClick={() => setIsOpen(true)}><Project1 /></div>
+              
+
               <Project2/>
               <Project3/>
             </div>
@@ -31,6 +34,11 @@ function Portfolio() {
               <Project6/>
             </div>
         </div>
+        {isOpen && (
+        <div className="spring-modal-container">
+          <SpringModal isOpen={isOpen} setIsOpen={setIsOpen} />
+        </div>
+      )}
       </div>
   );
 }

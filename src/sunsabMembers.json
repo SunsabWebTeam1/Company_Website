@@ -1,0 +1,51 @@
+[
+  {
+    "id": 0,
+    "name": "Anwar Alabbas",
+    "title": "Software Manager",
+    "img": "Anwar.jpg",
+    "linkedin": "https://www.linkedin.com/in/anwar-alabbas/"
+  },
+  {
+    "id": 1,
+    "name": "Drake Hankinson",
+    "title": "Business Manager",
+    "img": "Drake.jpg",
+    "linkedin": "https://www.linkedin.com/in/drake-hankinson/"
+  },
+  {
+    "id": 2,
+    "name": "Dean Hulkenberg",
+    "title": "Project Owner",
+    "img": "person.jpg",
+    "linkedin": "https://www.linkedin.com/in/dean-hulkenberg-4b2527257/"
+  },
+  {
+    "id": 3,
+    "name": "Rianne Hempsall",
+    "title": "Frontend Developer",
+    "img": "person.jpg",
+    "linkedin": "https://www.linkedin.com/in/rianne-hempsall-5b268a221/"
+  },
+  {
+    "id": 4,
+    "name": "Martin Contreras",
+    "title": "Frontend Developer",
+    "img": "Martin.jpg",
+    "linkedin": "https://www.linkedin.com/in/martin-contreras-877437255/"
+  },
+  {
+    "id": 5,
+    "name": "Jhio Soriano",
+    "title": "Backend Developer",
+    "img": "Jhio.jpg",
+    "linkedin": "https://www.linkedin.com/in/jhio-soriano-248b15254/"
+  },
+  {
+    "id": 6,
+    "name": "Austin Huynh",
+    "title": "Backend Developer",
+    "img": "Austin.jpg",
+    "linkedin": "https://www.linkedin.com/in/austin-huynh-6791b8186/"
+  }
+]

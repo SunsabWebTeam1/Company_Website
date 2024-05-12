@@ -621,12 +621,13 @@ body {
 }
 
 .team .heading {
-  color: #00bfff;
+  color: #0e1011;
+  margin-bottom: 70px;
 }
 
 .team .heading::before,
 .team .heading::after {
-  border-color: #00bfff;
+  border-color: #0e1011;
 }
 
 .team .row {

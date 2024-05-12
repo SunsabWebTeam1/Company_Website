@@ -5,7 +5,10 @@ import MemberCard from "./MemberCard";
 
 function Team() {
   return (
-    <section className="team" style={{ background: "#fff" }}>
+    <section
+      className="team"
+      style={{ background: "#fff", paddingBottom: "20px" }}
+    >
       <h1 className="heading" style={{ marginTop: "7rem" }} id="team">
         OUR TEAM
       </h1>

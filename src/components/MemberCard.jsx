@@ -17,7 +17,12 @@ function MemberCard({ name, title, img, linkedin }) {
       <h3 class="card__name">{name}</h3>
       <span class="card__profession">{title}</span>
       <div className="icons">
-        <a href={linkedin} class="card__social-link">
+        <a
+          href={linkedin}
+          class="card__social-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaLinkedinIn color="#Fff" fontSize="2em" />
         </a>
       </div>

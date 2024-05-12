@@ -1,0 +1,142 @@
+[
+  {
+    "id": 0,
+    "name": "Anwar Alabbas",
+    "title": "Software Manager",
+    "img": "Anwar.jpg",
+    "linkedin": "https://www.linkedin.com/in/anwar-alabbas/"
+  },
+  {
+    "id": 1,
+    "name": "Drake Hankinson",
+    "title": "Sales Manager",
+    "img": "Drake.jpg",
+    "linkedin": "https://www.linkedin.com/in/drake-hankinson/"
+  },
+  {
+    "id": 2,
+    "name": "Dean Hulkenberg",
+    "title": "Project Owner",
+    "img": "person.jpg",
+    "linkedin": "https://www.linkedin.com/in/dean-hulkenberg-4b2527257/"
+  },
+  {
+    "id": 3,
+    "name": "Rianne Hempsall",
+    "title": "Frontend Developer",
+    "img": "person.jpg",
+    "linkedin": "https://www.linkedin.com/in/rianne-hempsall-5b268a221/"
+  },
+  {
+    "id": 4,
+    "name": "Martin Contreras",
+    "title": "Frontend Developer",
+    "img": "Martin.jpg",
+    "linkedin": "https://www.linkedin.com/in/martin-contreras-877437255/"
+  },
+  {
+    "id": 5,
+    "name": "Jhio Soriano",
+    "title": "Backend Developer",
+    "img": "Jhio.jpg",
+    "linkedin": "https://www.linkedin.com/in/jhio-soriano-248b15254/"
+  },
+  {
+    "id": 6,
+    "name": "Austin Huynh",
+    "title": "Backend Developer",
+    "img": "Austin.jpg",
+    "linkedin": "https://www.linkedin.com/in/austin-huynh-6791b8186/"
+  },
+  {
+    "id": 7,
+    "name": "Angelo Fernando",
+    "title": "Project Owner",
+    "img": "person.jpg",
+    "linkedin": "https://www.linkedin.com/in/angelo-fernando-209088259/"
+  },
+  {
+    "id": 8,
+    "name": "Charles Ashmore",
+    "title": "Backend Developer",
+    "img": "Charles.jpg",
+    "linkedin": "https://www.linkedin.com/in/charles-ashmore-578634258/"
+  },
+  {
+    "id": 9,
+    "name": "Anna Dominique Punzalan",
+    "title": "Sales",
+    "img": "Anna.jpg",
+    "linkedin": "https://www.linkedin.com/in/dominique-punzalan-187411210"
+  },
+  {
+    "id": 10,
+    "name": "Devon Woodruff",
+    "title": "Backend Developer",
+    "img": "Devon.jpg",
+    "linkedin": "https://www.linkedin.com/in/devon-woodruff-912777258"
+  },
+  {
+    "id": 11,
+    "name": "James Sundby",
+    "title": "Frontend Developer",
+    "img": "James.jpg",
+    "linkedin": "https://www.linkedin.com/in/james-sundby"
+  },
+  {
+    "id": 12,
+    "name": "Tyler Le",
+    "title": "Project Owner",
+    "img": "Tyler.jpg",
+    "linkedin": "https://www.linkedin.com/in/tyler-thai-le/"
+  },
+  {
+    "id": 13,
+    "name": "Pranjal Jain",
+    "title": "Sales",
+    "img": "Pranjal.jpg",
+    "linkedin": "https://ca.linkedin.com/in/pranjal-jain-8386762a9"
+  },
+  {
+    "id": 14,
+    "name": "Mousamiben Desai",
+    "title": "Frontend Developer",
+    "img": "Mousamiben.jpg",
+    "linkedin": "https://www.linkedin.com/in/mausami21/"
+  },
+  {
+    "id": 15,
+    "name": "Mohamad Saleh",
+    "title": "Backend Developer",
+    "img": "Mohamad.jpg",
+    "linkedin": "https://www.linkedin.com/in/mohsley/"
+  },
+  {
+    "id": 16,
+    "name": "Ahmed Hijazi",
+    "title": "Project Owner",
+    "img": "Ahmed.jpg",
+    "linkedin": "https://www.linkedin.com/in/ahmed-hijazi49/"
+  },
+  {
+    "id": 17,
+    "name": "Anthony Magpantay",
+    "title": "Backend Developer",
+    "img": "Anthony.jpg",
+    "linkedin": "https://www.linkedin.com/in/anthony-magpantay/"
+  },
+  {
+    "id": 18,
+    "name": "Paradon Meeanan",
+    "title": "Frontend Developer",
+    "img": "Paradon.jpg",
+    "linkedin": "https://www.linkedin.com/in/paradonmeeanan/"
+  },
+  {
+    "id": 19,
+    "name": "Trien Xuong Lu",
+    "title": "Backend Developer",
+    "img": "Trien.jpg",
+    "linkedin": "https://www.linkedin.com/in/trien-xuong-lu/"
+  }
+]

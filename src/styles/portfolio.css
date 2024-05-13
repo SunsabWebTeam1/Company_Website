@@ -7,15 +7,16 @@
   letter-spacing: 8px;
   height: 20vh;
 }
+
 .portfolio {
   width: 100%;
   height: 100vh;
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .portfolioContent {
   display: flex;
   flex-direction: column; 
@@ -24,16 +25,44 @@
 
 .projects {
   display: flex;
-  flex-wrap: wrap;  
-  gap: 200px;  
+  flex-direction: row;
+  justify-content: center; 
+   gap: 20px; /* Reduced gap for better spacing */
 }
 
- .project {
-  flex: 1;  
+.project {
+  flex: 0 0 calc(33.33% - 20px); /* Adjusted project width */
   max-width: calc(33.33% - 20px); 
+  margin-bottom: 20px; /* Added margin for better spacing */
 }
 
 .project img {
   width: 100%;
   height: auto; 
+}
+
+.spring-modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Set a higher z-index */
+}
+
+.projects > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.empty-container {
+  width: 80%; /* Adjust the width to 80% of the website */
+  margin: 0 auto; /* Center the container */
+}
+.empty-component {
+  width: 20%; /* Adjust the width to 80% of the website */
+  margin: 0 auto; /* Center the container */
 }

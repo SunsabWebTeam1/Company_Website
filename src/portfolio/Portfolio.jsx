@@ -12,6 +12,7 @@ import '../styles/portfolio.css'
 
 // Import required modules
 import SpringModal from "./project1/modal";
+import transition from "../transition";
 
 // Import project content
 import { project1Content, project2Content, project3Content, project4Content, project5Content, project6Content , project7Content, project8Content, project9Content} from "./project1/contentFiles";
@@ -39,7 +40,7 @@ function Portfolio() {
             <div onClick={() => handleProjectClick(project6Content)}><Project6/></div>
         </div>
         <div className="projects">
-        <div onClick={() => handleProjectClick(project7Content)}><Project7/></div>
+            <div onClick={() => handleProjectClick(project7Content)}><Project7/></div>
             <div onClick={() => handleProjectClick(project8Content)}><Project8/></div>
             <div onClick={() => handleProjectClick(project9Content)}><Project9/></div>
         </div>
@@ -55,4 +56,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default transition(Portfolio);

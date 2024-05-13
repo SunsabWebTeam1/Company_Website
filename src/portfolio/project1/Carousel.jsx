@@ -3,7 +3,7 @@ import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
 
 import "./Carousel.css";
 
-export const Carousel = ({ data }) => {
+const Carousel = ({ data }) => {
   const [slide, setSlide] = useState(0);
 
   const nextSlide = () => {
@@ -47,3 +47,4 @@ export const Carousel = ({ data }) => {
     </div>
   );
 };
+export default Carousel

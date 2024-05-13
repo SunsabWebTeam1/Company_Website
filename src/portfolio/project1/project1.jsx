@@ -6,10 +6,10 @@ import proj1 from './project1img/proj1.png';
 
 function Project1() {
   return (
-    <div className="project-container" style={{ background: 'white', color: 'white', padding: 20 }}>
-      <h3 className="project-title">Project 1</h3>
+    <div className="project-container" style={{ background: 'white', color: 'white' }}>
+      <h3 className="project-title">Diamond Valley Cattery</h3>
       <div className="image-container">
-        <img src={proj1} alt="Screenshot 1" className="project-image" />
+        <div className="project-image1"></div>
       </div>
     </div>
   );

@@ -1,9 +1,0 @@
-.project-container {
-  width: 80%; /* Adjust the width to 80% of the website */
-  margin: 0 auto; /* Center the container */
-}
-
-.project-image {
-  width: 20%; /* Set image width to 20% of the container width */
-  height: auto; /* Allow height to adjust based on content */
-}

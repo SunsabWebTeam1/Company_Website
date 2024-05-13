@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Container from '@mui/material/Container';
 import { useState } from "react";
 import Project1 from "./project1/project1";
@@ -32,6 +32,8 @@ function Portfolio() {
   const [isOpen8, setIsOpen8] = useState(false);
   const [isOpen9, setIsOpen9] = useState(false);
 
+// Import project content
+import { project1Content, project2Content } from "./project1/contentFiles";
 
   return (
     <div className="portfolio">
@@ -51,7 +53,14 @@ function Portfolio() {
           <div onClick={() => { setIsOpen7(true); console.log('Project 7 clicked'); }}><Project7 /></div>
           <div onClick={() => { setIsOpen8(true); console.log('Project 8 clicked'); }}><Project8 /></div>
           <div onClick={() => { setIsOpen9(true); console.log('Project 9 clicked'); }}><Project9 /></div>
+
         </div>
+        {isOpen && (
+        <div className="spring-modal-container">
+          {/* Pass content as props */}
+          <SpringModal isOpen={isOpen} setIsOpen={setIsOpen} content={selectedProject} />
+        </div>
+      )}
       </div>
       {isOpen1 && (
         <div className="spring-modal-container">

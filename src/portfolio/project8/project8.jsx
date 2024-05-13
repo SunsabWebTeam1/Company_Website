@@ -1,5 +1,5 @@
 import React from "react";
-import './portfolio-project.css';
+import '../project1/portfolio-project.css';
 
 // Import images
 import proj1 from './project8img/proj1.png';
@@ -10,7 +10,7 @@ function Project8() {
     <div className="project-container" style={{ background: 'white', color: 'white', padding: 20 }}>
       <h3 className="project-title">Nexus</h3>
       <div className="image-container">
-        <img src={proj1} alt="Screenshot 1" className="project-image" />
+        <div className="project-image8"></div>
       </div>
     </div>
   );

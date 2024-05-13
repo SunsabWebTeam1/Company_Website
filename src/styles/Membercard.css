@@ -1,0 +1,76 @@
+/*=============== GOOGLE FONTS ===============*/
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --first-color: #0e1011;
+  --first-color-light: #0077b5;
+  --black-color: #0e1011;
+  --text-color: #0e1011;
+  --body-color: #fff;
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Roboto", sans-serif;
+  --h3-font-size: 1.125rem;
+  --smaller-font-size: 0.75rem;
+}
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--body-font);
+  background-color: var(--body-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*=============== CARD ===============*/
+.card__img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.card__border {
+  width: 250px;
+  height: 250px;
+  border: 0px solid var(--first-color); /*non-visable*/
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 0.75rem;
+  background-color: #0e1011;
+}
+.card__name {
+  color: var(--first-color);
+  font-size: 14pt;
+  font-weight: bold;
+}
+.card__profession {
+  color: var(--text-color);
+  font-size: 12pt;
+  font-weight: 400;
+}
+
+.card__social-link {
+  display: inline-flex;
+  background-color: var(--first-color-light);
+  color: var(--black-color);
+  font-size: 1.25rem;
+  padding: 7px;
+  border-radius: 50%;
+  margin-top: 5px;
+}

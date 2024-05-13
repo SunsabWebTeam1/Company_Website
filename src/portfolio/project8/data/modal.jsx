@@ -39,12 +39,13 @@ const SpringModal8= ({ isOpen8, setIsOpen8}) => {
                     <div className="portfolioMainContent">
 
                         <div className="titleContent">
-                            <h1>Title</h1>
+                            <h1>Nexus</h1>
                             <div className="wordContent">
-                            <p>Schedule “R” Us is a comprehensive scheduling management application designed to streamline the 
-                                scheduling process for businesses. It serves as a centralized hub where administrators can efficiently 
-                                organize employee schedules while providing employees with easy access to their shifts, requests, 
-                                and availability
+                            <p>An e-commerce platform featuring an 
+                                anonymous cart that seamlessly syncs 
+                                with user profiles upon login and intuitive 
+                                navigation with tailored user experiences 
+                                for a more personalized shopping journey.
                             </p>
                             </div>
                         </div>

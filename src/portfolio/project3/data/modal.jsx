@@ -39,7 +39,7 @@ const SpringModal3 = ({ isOpen3, setIsOpen3 }) => {
                     <div className="portfolioMainContent">
 
                         <div className="titleContent">
-                            <h1>Title</h1>
+                            <h1>Custom Weapon Warehouse</h1>
                             <div className="wordContent">
                             <p>Custom Weapon Warehouse is a demonstration of modified items created for a popular online video 
                                 game. It features a filterable pagified list of items with video demonstrations and a page for user

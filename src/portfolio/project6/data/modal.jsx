@@ -39,7 +39,7 @@ const SpringModal6 = ({ isOpen6, setIsOpen6 }) => {
                     <div className="portfolioMainContent">
 
                         <div className="titleContent">
-                            <h1>Title</h1>
+                            <h1>Schedule “R” Us </h1>
                             <div className="wordContent">
                             <p>Schedule “R” Us is a comprehensive scheduling management application designed to streamline the 
                                 scheduling process for businesses. It serves as a centralized hub where administrators can efficiently 

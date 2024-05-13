@@ -39,7 +39,7 @@ const SpringModal2 = ({ isOpen2, setIsOpen2 }) => {
                     <div className="portfolioMainContent">
 
                         <div className="titleContent">
-                            <h1>Title</h1>
+                            <h1>Greenhouse Monitoring & Control System</h1>
                             <div className="wordContent">
                             <p>Greenhouse Monitoring & Control System (GMCS) is an application for enhancing agricultural 
                                 efficiency by observing greenhouse statistics to manage mechanical components such as windows 

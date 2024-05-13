@@ -10,16 +10,16 @@ import { Carousel } from "./Carousel";
 import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa"
 import { IoLogoJavascript } from "react-icons/io5";
 
-const SpringModal7= ({ isOpen7, setIsOpen7}) => {
+const SpringModal9= ({ isOpen9, setIsOpen9}) => {
     const slides = slidesData.slides;
     return (
         <AnimatePresence>
-        {isOpen7 && (
+        {isOpen9 && (
             <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            onClick={() => setIsOpen7(false)}
+            onClick={() => setIsOpen9(false)}
             className="modal-backdrop"
             >
             <motion.div
@@ -31,7 +31,7 @@ const SpringModal7= ({ isOpen7, setIsOpen7}) => {
             >
                 <div className="modal-inner-content">
                     <div className="modal-buttons">  
-                        <FaRegWindowClose size={30}  onClick={() => setIsOpen7(false)}/>
+                        <FaRegWindowClose size={30}  onClick={() => setIsOpen9(false)}/>
                     </div>
                     <div className="carouselContent">
                         <Carousel data={slides} />
@@ -39,13 +39,13 @@ const SpringModal7= ({ isOpen7, setIsOpen7}) => {
                     <div className="portfolioMainContent">
 
                         <div className="titleContent">
-                            <h1>BookYatra</h1>
+                            <h1>QuickPortfolio </h1>
                             <div className="wordContent">
-                            <p>BookYatra is a dynamic flight and hotel booking website that provides a seamless, real-time booking 
-                                experience with a comprehensive search functionality. It features user authentication, a responsive 
-                                interface for exploring hotel and flight options, and simulated payment transactions for a complete 
-                                booking process. The platform includes a multilingual FAQ section, global attractions guide, and a 
-                                reliable chatbot for customer support, enhancing the overall user experience.
+                            <p>QuickPortfolio is a platform designed for early-career computing professionals to effortlessly create 
+                                portfolios that highlight their projects, problem-solving approaches, and work artifacts for potential 
+                                employers. It is a full-stack web application that has list pagination, data serialization/marshalling to 
+                                AWS using their DynamoDB data solution, and features a responsive modern UI, resulting in beautifully 
+                                crafted and elegant portfolios made in record time
                             </p>
                             </div>
                         </div>
@@ -67,4 +67,4 @@ const SpringModal7= ({ isOpen7, setIsOpen7}) => {
   );
 };
 
-export default SpringModal7;
+export default SpringModal9;

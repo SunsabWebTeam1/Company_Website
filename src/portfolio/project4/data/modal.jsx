@@ -39,13 +39,22 @@ const SpringModal4 = ({ isOpen4, setIsOpen4 }) => {
                     <div className="portfolioMainContent">
 
                         <div className="titleContent">
-                            <h1>Title</h1>
+                            <h1>Green Flag Lawn</h1>
                             <div className="wordContent">
-                            <p>QuickPortfolio is a platform designed for early-career computing professionals to effortlessly create 
-                                portfolios that highlight their projects, problem-solving approaches, and work artifacts for potential 
-                                employers. It is a full-stack web application that has list pagination, data serialization/marshalling to 
-                                AWS using their DynamoDB data solution, and features a responsive modern UI, resulting in beautifully 
-                                crafted and elegant portfolios made in record time
+                            <p>This mobile app was built to help 
+                                streamline Green Flag Lawn's existing 
+                                system by enhancing communication 
+                                efficiency between the technicians and 
+                                office administrative staff, which helps to 
+                                boost productivity among field technicians 
+                                as a result.​
+
+                                ​
+
+                                Additionally, the project will help to 
+                                improve management processes and 
+                                facilitate business tracking, making it 
+                                primed for expansion.​
                             </p>
                             </div>
                         </div>

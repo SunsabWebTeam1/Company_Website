@@ -39,7 +39,7 @@ const SpringModal5 = ({ isOpen5, setIsOpen5 }) => {
                     <div className="portfolioMainContent">
 
                         <div className="titleContent">
-                            <h1>Title</h1>
+                            <h1>AI for the Ocean</h1>
                             <div className="wordContent">
                             <p>A project for exploring how Artificial Intelligence tools can be applied to study the oceans and the 
                                 ecosystems they harbour. The mission is to increase accessibility to those interested in using machine 

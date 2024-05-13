@@ -8,8 +8,8 @@ import Project4 from "./project4/project4";
 import Project5 from "./project5/project5";
 import Project6 from "./project6/project6";
 import Project7 from "./project7/project7";
-//import Project8 from "./project8/project8";
-
+import Project8 from "./project8/project8";
+import Project9 from "./project9/project9";
 import '../styles/portfolio.css'
 // import required modules
 import SpringModal from "./project1/data/modal";
@@ -19,7 +19,8 @@ import SpringModal4 from "./project4/data/modal";
 import SpringModal5 from "./project5/data/modal";
 import SpringModal6 from "./project6/data/modal";
 import SpringModal7 from "./project7/data/modal";
-//import SpringModal8 from "./project7/data/modal";
+import SpringModal8 from "./project8/data/modal";
+import SpringModal9 from "./project9/data/modal";
 function Portfolio() {
   const [isOpen1, setIsOpen1] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
@@ -28,6 +29,9 @@ function Portfolio() {
   const [isOpen5, setIsOpen5] = useState(false);
   const [isOpen6, setIsOpen6] = useState(false);
   const [isOpen7, setIsOpen7] = useState(false);
+  const [isOpen8, setIsOpen8] = useState(false);
+  const [isOpen9, setIsOpen9] = useState(false);
+
 
   return (
     <div className="portfolio">
@@ -45,6 +49,8 @@ function Portfolio() {
         </div>
         <div className="projects">
           <div onClick={() => { setIsOpen7(true); console.log('Project 7 clicked'); }}><Project7 /></div>
+          <div onClick={() => { setIsOpen8(true); console.log('Project 8 clicked'); }}><Project8 /></div>
+          <div onClick={() => { setIsOpen9(true); console.log('Project 9 clicked'); }}><Project9 /></div>
         </div>
       </div>
       {isOpen1 && (
@@ -80,6 +86,16 @@ function Portfolio() {
        {isOpen7 && (
         <div className="spring-modal-container">
           <SpringModal7 isOpen7={isOpen7} setIsOpen7={setIsOpen7} />
+        </div>
+      )}
+       {isOpen8 && (
+        <div className="spring-modal-container">
+          <SpringModal8 isOpen8={isOpen8} setIsOpen8={setIsOpen8} />
+        </div>
+      )}
+        {isOpen9 && (
+        <div className="spring-modal-container">
+          <SpringModal9 isOpen9={isOpen9} setIsOpen9={setIsOpen9} />
         </div>
       )}
     </div>

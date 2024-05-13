@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Company_Website/static/css/main.3334aa0c.css",
-    "main.js": "/Company_Website/static/js/main.cab27b4a.js",
+    "main.css": "/Company_Website/static/css/main.0b01c633.css",
+    "main.js": "/Company_Website/static/js/main.f882f36d.js",
     "static/media/LP-Image.png": "/Company_Website/static/media/LP-Image.1023a7156992de35177d.png",
     "static/media/projthum.png": "/Company_Website/static/media/projthum.7f7b9363d476897cead6.png",
     "static/media/img3.jpg": "/Company_Website/static/media/img3.74e8ef9643b54ebb3bdf.jpg",
@@ -28,11 +28,11 @@
     "static/media/Trien.jpg": "/Company_Website/static/media/Trien.9c7ba06a6b7873360f5e.jpg",
     "static/media/logo.png": "/Company_Website/static/media/logo.a99dc009273f7ea30b6f.png",
     "index.html": "/Company_Website/index.html",
-    "main.3334aa0c.css.map": "/Company_Website/static/css/main.3334aa0c.css.map",
-    "main.cab27b4a.js.map": "/Company_Website/static/js/main.cab27b4a.js.map"
+    "main.0b01c633.css.map": "/Company_Website/static/css/main.0b01c633.css.map",
+    "main.f882f36d.js.map": "/Company_Website/static/js/main.f882f36d.js.map"
   },
   "entrypoints": [
-    "static/css/main.3334aa0c.css",
-    "static/js/main.cab27b4a.js"
+    "static/css/main.0b01c633.css",
+    "static/js/main.f882f36d.js"
   ]
 }

@@ -3,8 +3,6 @@ import './portfolio-project.css';
 
 // Import images
 import proj1 from './project1img/proj1.png';
-import proj2 from './project1img/proj2.png';
-import proj3 from './project1img/proj3.png';
 
 function Project1() {
   return (

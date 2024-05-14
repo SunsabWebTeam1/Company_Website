@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <AppBar position="static" sx={{ backgroundColor: "#0E1011" }}>
+    <AppBar position="fixed" sx={{ backgroundColor: "#0E1011" }}>
       <Toolbar>
         <img
           src={require("../images/logo.png")}

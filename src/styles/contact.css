@@ -1,91 +1,91 @@
-.contact{
-    width: 100%;
-    height: 110vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.contact {
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.contactContent{
-    display: flex;
-    flex-direction: column; 
-    height: 85vh;
+.contactContent {
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
 }
 
-.contactContenTitle{
-    font-size: xx-large;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: 8px;
-    height: 12vh;
+.contactContenTitle {
+  font-size: xx-large;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 8px;
+  height: 12vh;
 }
 
-
-.contactContentInfo{
-    width: 60vh;
-    height: 30vh;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.contactContentInfo {
+  width: 60vh;
+  height: 30vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.contactContentInfo p{
-    color: #fff;
-    font-size: small;
-    height: 3vh;
+.contactContentInfo p {
+  color: #fff;
+  font-size: small;
+  height: 3vh;
 }
 
-.contactContentInfoFlex{
-    display: flex;
-    flex-direction: row;
+.contactContentInfoFlex {
+  display: flex;
+  flex-direction: row;
 }
 
-.contactContentInputContent{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.contactContentInputContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
 
 /*TextField Styling*/
 .customTextField .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
-    border-width: 2px !important; /* Change the border width as needed */
-  }
-  
-  .customTextField .MuiInputLabel-root {
-    color: #404040 !important;
-  }
-  
-  .customTextField .MuiInputLabel-root.Mui-focused {
-    color: #404040 !important;
-  }
-  
-  .customTextField .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
-    border-color: #404040 !important;
-  }
-  
-  .customTextField .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
-    border-color: #404040 !important;
-  }
-  
-  .customTextField .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
-    border-color: #404040 !important;
-  }
-  
-  .customTextField .MuiOutlinedInput-input {
-    font-size: 16px !important; /* Change the font size as needed */
-  }
-  
-  .customTextField .MuiInputLabel-root {
-    font-size: 12px !important; /* Change the font size of the label as needed */
-    color: #404040  !important;
-  }
-  
-  .customTextField .MuiInputLabel-root.Mui-focused {
-    color: #404040  !important;
-  }
+  border-width: 2px !important; /* Change the border width as needed */
+}
+
+.customTextField .MuiInputLabel-root {
+  color: #404040 !important;
+}
+
+.customTextField .MuiInputLabel-root.Mui-focused {
+  color: #404040 !important;
+}
+
+.customTextField .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: #404040 !important;
+}
+
+.customTextField .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #404040 !important;
+}
+
+.customTextField
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: #404040 !important;
+}
+
+.customTextField .MuiOutlinedInput-input {
+  font-size: 16px !important; /* Change the font size as needed */
+}
+
+.customTextField .MuiInputLabel-root {
+  font-size: 12px !important; /* Change the font size of the label as needed */
+  color: #404040 !important;
+}
+
+.customTextField .MuiInputLabel-root.Mui-focused {
+  color: #404040 !important;
+}

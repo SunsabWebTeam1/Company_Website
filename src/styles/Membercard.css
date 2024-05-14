@@ -67,7 +67,7 @@ img {
 
 .card__social-link {
   display: inline-flex;
-  background-color: var(--first-color-light);
+  background-color: var(--black-color);
   color: var(--black-color);
   font-size: 1.25rem;
   padding: 7px;

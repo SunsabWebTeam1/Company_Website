@@ -23,7 +23,7 @@ function MemberCard({ name, title, img, linkedin }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedinIn color="#Fff" fontSize="2em" />
+          <FaLinkedinIn color="#Fff" fontSize="1.25em" />
         </a>
       </div>
     </div>

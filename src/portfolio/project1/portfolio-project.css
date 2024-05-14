@@ -48,10 +48,10 @@
   width: 100%;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  letter-spacing: 8px;
+  letter-spacing: 3px;
   color:black;
   padding-bottom: 30px; 
-
+  font-size: medium;
 }
 .project-image1{
   width: 100%;

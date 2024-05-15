@@ -1,6 +1,6 @@
 import React from "react";
 import transition from "../transition";
-import TeamList from "../sunsabMembers";
+import TeamList from "../constants/sunsabMembers.json";
 import MemberCard from "./MemberCard";
 
 function Team() {

@@ -7,13 +7,16 @@ function About() {
       <h1 className="heading">about us</h1>
       <div className="row">
         <div className="content">
-          <h3>We make creativity work for your brand!</h3>
+          <h3>Sunsab is where innovation fuels passion!</h3>
           <p>
-            Ours is a team of creatives that is brainstorming on great ideas,{" "}
-            <b>all. the. time.</b>
+            We're a dynamic team of software developers armed with cutting-edge expertise in modern technologies.
             <br />
-            With our skills put together, you get an ensemble capable of doing
-            anything and everything your brand needs.
+            Our mission? To harness technology's power for positive global change. {" "}
+
+            <br /><br />
+            At Sunsab, we believe in the transformative potential of software. 
+            Whether crafting sleek mobile apps or architecting robust web solutions, 
+            we are committed to shaping the future through code.
           </p>
           {/* <a href="#">
             <button className="btn">Read More</button>

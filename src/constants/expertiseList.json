@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "title": "Full-stack web development"
+    },
+    {
+        "id": 2,
+        "title": "Mobile app development"
+    },
+    {
+        "id": 3,
+        "title": "Cloud computing (AWS, Firebase)"
+    },
+    {
+        "id": 4,
+        "title": "Database management (DynamoDB, MongoDB, PostgreSQL)"
+    },
+    {
+        "id": 5,
+        "title": "Frontend frameworks (ReactJS, NextJS)"
+    },
+    {
+        "id": 6,
+        "title": "Backend frameworks (NodeJS)"
+    },
+    {
+        "id": 7,
+        "title": "IoT development (Raspberry Pi)"
+    },
+    {
+        "id": 8,
+        "title": "Geolocation services (Google Maps API)"
+    },
+    {
+        "id": 9,
+        "title": "E-commerce solutions"
+    },
+    {
+        "id": 10,
+        "title": "UI/UX design"
+    },
+    {
+        "id": 11,
+        "title": "Data serialization/marshalling"
+    }
+
+]

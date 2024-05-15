@@ -13,9 +13,8 @@ function Services() {
           <div className="section-head col-sm-12" id="service">
             <h1>Vision</h1>
             <p>
-              We help you to build high-quality digital solutions and products
-              as well as deliver a wide range of related professional services.
-              We are providing world-class service to our clients.
+            We aspire to develop innovative solutions that empower individuals
+            and businesses to thrive in a rapidly evolving digital landscape.
             </p>
           </div>
           <div

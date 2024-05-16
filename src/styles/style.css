@@ -1092,7 +1092,7 @@ body {
   }
 }
 
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
   html {
     font-size: 50%;
   }
@@ -1367,4 +1367,133 @@ body {
     display: table;
     clear: both;
   }
+} */
+
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .section-head h1 {
+    font-size: 2rem;
+  }
+
+  .section-head p {
+    font-size: 1rem;
+  }
+
+  .item h6 {
+    font-size: 1rem;
+  }
+
+  .item svg {
+    font-size: 3rem;
+  }
+
+  .container .row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .column {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  
 }
+
+/* Existing styles... */
+
+@media (max-width: 768px) {
+  .team .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  .team .row .card {
+    height: 30rem;
+    width: 20rem;
+    margin: 2rem auto;
+  }
+
+  .team .row .card .image img {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .team .row .card .info h3 {
+    font-size: 1.5rem;
+  }
+
+  .team .row .card .info span {
+    font-size: 1.2rem;
+  }
+
+  .team .row .card .info .icons a {
+    font-size: 1.5rem;
+  }
+
+  .team .row .card::before,
+  .team .row .card::after {
+    height: 10.5rem;
+    width: 10.5rem;
+  }
+
+  .team .row .card::before {
+    top: -2rem;
+    right: -3rem;
+  }
+
+  .team .row .card::after {
+    bottom: -2rem;
+    left: -3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .team .row {
+    grid-template-columns: 1fr;
+  }
+
+  .team .row .card {
+    height: 25rem;
+    width: 18rem;
+  }
+
+  .team .row .card .image img {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .team .row .card .info h3 {
+    font-size: 1.2rem;
+  }
+
+  .team .row .card .info span {
+    font-size: 1rem;
+  }
+
+  .team .row .card .info .icons a {
+    font-size: 1.2rem;
+  }
+
+  .team .row .card::before,
+  .team .row .card::after {
+    height: 8.5rem;
+    width: 8.5rem;
+  }
+
+  .team .row .card::before {
+    top: -1.5rem;
+    right: -2.5rem;
+  }
+
+  .team .row .card::after {
+    bottom: -1.5rem;
+    left: -2.5rem;
+  }
+}
+

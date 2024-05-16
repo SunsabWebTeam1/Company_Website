@@ -1,93 +1,236 @@
 .expertise {
-  width: 100%;
-  height: 100vh;
+  background-color: #f9f9f9;
+  padding: 50px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 
 .expertiseContent {
-  display: flex;
-  flex-direction: column;
-  height: 70vh;
-}
-
-.expertiseContentWords {
-  width: 170vh;
-  font-size: medium;
-  font-family: "Montserrat", sans-serif;
-  text-align: start;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .expertiseTitle {
-  font-size: xx-large;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+  font-size: 36px;
+  color: #0e1011;
   letter-spacing: 8px;
-  height: 20vh;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.expertiseSubTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #0e1011;
+  margin-bottom: 40px;
+}
+
+.subTitleOfList {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.expertiseContentWords  {
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.expertiseContentWords ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px;
+  width: calc(50% - 20px); 
+  margin-bottom: 20px;
+  border: 2px solid #ccc; 
+  border-radius: 10px;
+  padding-top: 6px;
+}
+
+.expertiseContentWords ul:hover {
+  transform: scale(1.05); 
+}
+
+.expertiseContentWords li {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.expertiseContentWords li:hover {
+  color: #fff;
+  background-color: #0e1011; 
+  border-radius: 10px;
+
 }
 
 .expertiseCirlceContent {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
+  margin-bottom: 40px;
+  border: 2px solid #ccc; 
+  border-radius: 10px;
+  padding: 30px;
 }
 
 .expertiseCirlce {
-  width: 20vh;
-  height: 20vh;
-  background-color: #0e1011;
-  border-radius: 100%;
-  flex-direction: column;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .expertiseCirlceNumber {
-  margin-bottom: 5vh;
-  font-size: x-large;
-  font-weight: 400;
-  color: #fed136;
+  font-size: 20px;
+  color: #0e1011;
 }
 
 .expertiseCirlceWords {
-  margin-bottom: 10px;
-  font-size: x-large;
-  font-weight: 400;
-  color: white;
+  font-size: 20px;
+  color: #666;
 }
 
 .expertiseSmallCirlce {
-  width: 6vh;
-  height: 6vh;
-  border: 1px solid #0e1011;
-  border-radius: 100%;
+  width: 50px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .expertiseSkills {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
+  margin: 40px 0px;
+}
+
+.expertiseSkills h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .expertiseSkillsBoxContent {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  margin-right: 10vh;
+  gap: 10px;
 }
 
 .expertiseSkillsBox {
-  margin-right: 2vh;
+  margin: 0 20px;
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.expertiseSkillsBox img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 3px solid #0e1011;
+  transition: transform 0.3s ease-in-out;
+}
+
+.expertiseSkillsBox img:hover {
+  transform: scale(1.1);
+}
+
+/*Media query for mobile app */
+@media (max-width: 768px) {
+  .expertiseTitle {
+    font-size: 28px;
+  }
+
+  .expertiseSubTitle {
+    font-size: 16px;
+  }
+
+  .subTitleOfList {
+    font-size: 18px;
+  }
+
+  .expertiseContentWords ul {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .expertiseCirlceContent {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .expertiseCirlce {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+
+  .expertiseCirlceNumber {
+    font-size: 18px;
+  }
+
+  .expertiseCirlceWords {
+    font-size: 16px;
+  }
+
+  .expertiseSmallCirlce {
+    transform: rotate(90deg);
+    margin: 20px 0;
+  }
+
+  .expertiseSkillsBox {
+    margin: 0 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .expertiseTitle {
+    font-size: 24px;
+  }
+
+  .expertiseSubTitle {
+    font-size: 14px;
+  }
+
+  .subTitleOfList {
+    font-size: 16px;
+  }
+
+  .expertiseContentWords ul {
+    font-size: 16px;
+  }
+
+  .expertiseCirlce {
+    width: 100px;
+    height: 100px;
+  }
+
+  .expertiseCirlceNumber {
+    font-size: 16px;
+  }
+
+  .expertiseCirlceWords {
+    font-size: 14px;
+  }
+
+  .expertiseSkillsBox {
+    max-width: 150px;
+  }
+
+  .expertiseSkillsBox img {
+    width: 60px;
+    height: 60px;
+  }
 }

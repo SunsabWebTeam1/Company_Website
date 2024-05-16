@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
 }
 
 .expertiseContent {
@@ -31,7 +30,7 @@
 
 .subTitleOfList {
   font-size: 20px;
-  color: #444;
+  color: #0e1011;
   margin-bottom: 20px;
 }
 
@@ -81,9 +80,13 @@
   padding: 30px;
 }
 
+.expertiseCirlceContent div:hover {
+  transform: scale(1.1);
+}
+
 .expertiseCirlce {
   background-color: #fff;
-  border: 2px solid #333;
+  border: 2px solid #0e1011;
   border-radius: 50%;
   width: 150px;
   height: 150px;
@@ -100,7 +103,7 @@
 
 .expertiseCirlceWords {
   font-size: 20px;
-  color: #666;
+  color: #0e1011;
 }
 
 .expertiseSmallCirlce {
@@ -117,7 +120,7 @@
 
 .expertiseSkills h1 {
   font-size: 32px;
-  color: #333;
+  color: #0e1011;
   margin-bottom: 30px;
   font-family: "Montserrat", sans-serif;
 }
@@ -136,15 +139,15 @@
 }
 
 .expertiseSkillsBox img {
-  width: 75px;
-  height: 75px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  border: 3px solid #0e1011;
+  border: 1px solid #0e1011;
   transition: transform 0.3s ease-in-out;
 }
 
 .expertiseSkillsBox img:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 /*Media query for mobile app */

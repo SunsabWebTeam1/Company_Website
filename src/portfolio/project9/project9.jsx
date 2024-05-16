@@ -7,7 +7,7 @@ import proj1 from './project9img/proj1.png';
 
 function Project9() {
   return (
-    <div className="project-container" style={{ background: 'white', color: 'white', padding: 20 }}>
+    <div className="project-container">
       <h3 className="project-title">QuickPortfolio</h3>
       <div className="image-container">
         <div className="project-image9"></div>

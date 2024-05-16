@@ -4,7 +4,6 @@ import { IoLogoJavascript } from "react-icons/io5";
 const project1Content = {
   title: "Diamond Valley Cattery",
   description: "Diamond Valley Cattery is a web app designed for an upcoming cattery. It is a modular system with a customer-facing front-end for displaying cats available for sale and a breeder panel for managing and adding cat data. Users can comment on cat pages, create a list of their favorite cats, and open up a direct conversation with the owner before making a purchase. ",
-  techStack: ['FaHtml5', 'FaCss3Alt', 'IoLogoJavascript', 'FaReact'], // Using icons for tech stack
   techStack: [<FaHtml5 size={60}/>, <FaCss3Alt size={60}/>, <IoLogoJavascript size={60}/>, <FaReact size={60}/>], // Using icons for tech stack
   slides: [
     {
@@ -32,13 +31,21 @@ const project2Content = {
       alt: "Image 1 for carousel"
     },
     {
-      src: require(".././project2/project2img/proj1.png"),
+      src: require(".././project2/project2img/proj2.png"),
       alt: "Image 2 for carousel"
     },
     {
-      src: require(".././project2/project2img/proj1.png"),
+      src: require(".././project2/project2img/proj3.png"),
       alt: "Image 3 for carousel"
-    }
+    },
+    {
+      src: require(".././project2/project2img/proj4.png"),
+      alt: "Image 4 for carousel"
+    },
+    {
+      src: require(".././project2/project2img/proj5.png"),
+      alt: "Image 5 for carousel"
+    },
   ]
 };
 
@@ -76,10 +83,6 @@ const project4Content = {
       src: require(".././project4/project4img/proj2.png"),
       alt: "Image 2 for carousel"
     },
-    {
-      src: require(".././project4/project4img/proj3.png"),
-      alt: "Image 3 for carousel"
-    }
   ]
 };
 
@@ -192,4 +195,24 @@ const project9Content = {
   ]
 };
 
-export { project1Content, project2Content,  project3Content, project4Content, project5Content, project6Content, project7Content, project8Content, project9Content };
+const project10Content = {
+  title: "Two Sister Gallery",
+  techStack: [<FaHtml5 size={60}/>, <FaCss3Alt size={60}/>, <IoLogoJavascript size={60}/>, <FaReact size={60}/>], // Using icons for tech stack
+  description: "Two Sister Gallery is an ecommerce application that maximize UX/UI to satisfy art industry design standard. Users are allowed to purchase artwork, register for art classes, create user account, and view updated news and messages. Admin will have extra pages and functions to add, edit, and delete any artwork, art class, messages, feature.", 
+  slides: [
+    {
+      src: require(".././project10/project10img/proj1.png"),
+      alt: "Image 1 for carousel"
+    },
+    {
+      src: require(".././project10/project10img/proj2.png"),
+      alt: "Image 2 for carousel"
+    },
+    {
+      src: require(".././project10/project10img/proj3.png"),
+      alt: "Image 3 for carousel"
+    }
+  ]
+};
+
+export { project1Content, project2Content,  project3Content, project4Content, project5Content, project6Content, project7Content, project8Content, project9Content, project10Content };

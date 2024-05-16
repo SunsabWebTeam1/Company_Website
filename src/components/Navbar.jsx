@@ -37,7 +37,7 @@ function Navbar() {
             </Typography>
             <Typography variant="h5" sx={{ marginLeft: "30px" }}>
               <Link to="/portfolio" style={{ textDecoration: "none", color: "inherit" }}>
-                Portfolio
+                Projects
               </Link>
             </Typography>
             <Typography variant="h5" sx={{ marginLeft: "30px" }}>

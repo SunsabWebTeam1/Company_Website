@@ -10,7 +10,7 @@ function Expertise() {
   return (
     <div id="expertise" className="expertise">
       <div className="expertiseContent">
-        <h1 className="expertiseTitle">EXPERTISE</h1>
+        <h1 className="heading expertiseTitle">EXPERTISE</h1>
         <h2 className="expertiseSubTitle">Empowering Innovation Through Technological Expertise</h2>
         <h3 className="subTitleOfList">At Sunsab, we specialize in:</h3>
         <div className="expertiseContentWords">

@@ -20,7 +20,7 @@
   text-align: center;
   font-size: 36px;
   font-weight: bold;
-  color: #333;
+  color: #0e1011;
   margin: 50px 0px;
   font-family: 'Montserrat', sans-serif;
 }
@@ -52,30 +52,20 @@
 }
 
 .customTextField label {
-  color: #333;
+  color: #0e1011;
   font-weight: bold;
 }
 
 .customTextField input,
 .customTextField textarea {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-  font-size: 16px;
-  color: #333;
-}
-
-.customTextField input:focus,
-.customTextField textarea:focus {
-  outline: none;
-  border-color: #FED136;
-  box-shadow: 0 0 5px rgba(254, 209, 54, 0.3);
+  font-size: 18px;
+  color: #0e1011;
 }
 
 /* Button Styles */
 .contactContentInputContent button {
   background-color: #FED136;
-  color: #333;
+  color: #0e1011;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
@@ -86,5 +76,5 @@
 }
 
 .contactContentInputContent button:hover {
-  background-color: #ffc107;
+  background-color: #EFBB35;
 }

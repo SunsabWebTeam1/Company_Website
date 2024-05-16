@@ -1,13 +1,9 @@
 import React from "react";
 import '../project1/portfolio-project.css';
 
-// Import images
-import proj1 from './project3img/proj1.png';
-
-
-function Project2() {
+function Project3() {
   return (
-    <div className="project-container" style={{ background: 'white', color: 'white', padding: 20 }}>
+    <div className="project-container">
       <h3 className="project-title">Custom Weapon Warehouse</h3>
       <div className="image-container">
         <div className="project-image3"></div>
@@ -16,5 +12,7 @@ function Project2() {
   );
 }
 
-export default Project2;
+export default Project3;
+
+
 

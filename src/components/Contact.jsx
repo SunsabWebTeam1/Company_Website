@@ -1,65 +1,103 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
-import '../styles/contact.css';
-import transition from '../transition';
-//images
-import phoneImage from '../images/contactImg/phoneIcon.png';
-import emailImage from '../images/contactImg/emailIcon.png';
-import addressImage from '../images/contactImg/addressicon.png';
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
+import "../styles/contact.css";
+import transition from "../transition";
 
-//materialUIComponents
-import TextField from '@mui/material/TextField';
-import Button from '@mui/material/Button';
+import PhoneIcon from "@mui/icons-material/Phone";
+import EmailIcon from "@mui/icons-material/Email";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+
+import TextField from "@mui/material/TextField";
+import Button from "@mui/material/Button";
 
 function Contact() {
   const form = useRef();
+  const [emailError, setEmailError] = useState("");
+  const [submitStatus, setSubmitStatus] = useState("");
+
+  const handleEmailChange = (e) => {
+    const emailValue = e.target.value;
+    const emailRegex = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
+
+    if (!emailRegex.test(emailValue)) {
+      setEmailError("Please enter a valid email address");
+    } else {
+      setEmailError("");
+    }
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
 
+    const emailRegex = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
+    const emailValue = form.current.user_email.value;
+
+    if (!emailRegex.test(emailValue)) {
+      setSubmitStatus("fail");
+      setEmailError("Please enter a valid email address");
+      return;
+    }
+
+    setSubmitStatus("loading");
+
     emailjs
-      .sendForm( process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, form.current, {
-        publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
-      })
+      .sendForm(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        form.current,
+        {
+          publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
+        }
+      )
       .then(
         () => {
-          console.log('SUCCESS!');
+          setSubmitStatus("success");
+          console.log("SUCCESS!");
         },
         (error) => {
-          console.log('FAILED...', error.text);
-        },
+          setSubmitStatus("fail");
+          console.log("FAILED...", error.text);
+        }
       );
   };
-
 
   return (
     <div className="contact">
       <div className="contactContent">
-        <h1 className="contactContenTitle">CONTACT US</h1>
+        <h1 className="heading contactContenTitle">CONTACT US</h1>
         <div className="contactContentInfo">
           <div className="contactContentInfoFlex">
-            <img src={phoneImage} alt="photoShopImage" style={{ width: '2vh', height: '2vh', marginRight: '2vh' }}/>
+            <PhoneIcon style={{ marginRight: "10px", fontSize: '2rem' }} />
             <p>+1 999 999 9999</p>
           </div>
           <div className="contactContentInfoFlex">
-            <img src={emailImage} alt="photoShopImage" style={{ width: '2vh', height: '2vh', marginRight: '2vh' }}/>
+            <EmailIcon style={{ marginRight: "10px", fontSize: '2rem' }} />
             <p>sunsab@sunsab.com</p>
           </div>
           <div className="contactContentInfoFlex">
-          <img src={addressImage} alt="photoShopImage" style={{ width: '2vh', height: '2vh', marginRight: '2vh' }}/>
+            <LocationOnIcon style={{ marginRight: "10px", fontSize: '2rem' }} />
             <p>Address: 1235 Street NW, Calgary, AB, Canada</p>
           </div>
         </div>
-        <form ref={form} onSubmit={sendEmail} className="contactContentInputContent">
+
+        <form
+          ref={form}
+          onSubmit={sendEmail}
+          className="contactContentInputContent"
+        >
           <TextField
             type="text"
             name="user_name"
             id="outlined-multiline-flexible-uncontrolled"
             className="customTextField"
-            sx={{marginTop: '8vh', width: '60vh', color: 'black'}}
+            sx={{ marginTop: "8vh", width: "60vh", color: "black" }}
             label="Name"
             multiline
             rows={1}
+            required
+            InputLabelProps={{
+              style: { fontSize: "14px" },
+            }}
           />
           <TextField
             type="email"
@@ -68,34 +106,62 @@ function Contact() {
             className="customTextField"
             label="Email"
             multiline
-            sx={{marginTop: '5vh', width: '60vh'}}
+            sx={{ marginTop: "5vh", width: "60vh" }}
             rows={1}
-            inputProps={{style: {textTransform : 'none'}}}
+            inputProps={{ style: { textTransform: "none" } }}
+            required
+            error={!!emailError}
+            helperText={
+              <span style={{ fontSize: "14px" }}>{emailError}</span> // Change font size here
+            }
+            onChange={handleEmailChange}
+            InputLabelProps={{
+              style: { fontSize: "14px" },
+            }}
           />
-           <TextField
+          <TextField
             name="message"
             id="outlined-multiline-flexible"
             className="customTextField"
             label="Message"
             multiline
-            sx={{marginTop: '5vh', width: '60vh'}}
+            sx={{ marginTop: "5vh", width: "60vh" }}
             rows={12}
-            inputProps={{style: {textTransform : 'none'}}}
+            inputProps={{ style: { textTransform: "none" } }}
+            InputLabelProps={{
+              style: { fontSize: "14px" },
+            }}
           />
-          <Button 
-          type="submit"
-          value="Send"
-          variant="contained"
-          sx={{marginTop: '5vh', width: '15vh', height: '5vh', color: 'black', 
-          backgroundColor: '#FED136',
-          '&:hover': {
-            backgroundColor: '#FED136',
-          },
-          fontSize: '1.5rem',
-          letterSpacing: '3px',
-          fontFamily: "Montserrat",
-          }}
-          >SEND</Button>
+          <Button
+            type="submit"
+            value="Send"
+            variant="contained"
+            sx={{
+              marginTop: "5vh",
+              width: "20vh",
+              height: "5vh",
+              color: "black",
+              backgroundColor: "#FED136",
+              "&:hover": {
+                backgroundColor: "#FED136",
+              },
+              fontSize: "1.5rem",
+              letterSpacing: "3px",
+              fontFamily: "Montserrat",
+            }}
+          >
+            {submitStatus === "loading" ? "Loading..." : "SEND"}
+          </Button>
+          {submitStatus === "success" && (
+            <p style={{ fontSize: "16px", marginTop: "20px", color: "green" }}>
+              Email sent successfully!
+            </p>
+          )}
+          {submitStatus === "fail" && (
+            <p style={{ fontSize: "16px", marginTop: "20px", color: "red" }}>
+              Failed to send email. Please try again.
+            </p>
+          )}
         </form>
       </div>
     </div>

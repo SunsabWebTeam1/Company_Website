@@ -8,13 +8,13 @@ import Project6 from "./project6/project6";
 import Project7 from "./project7/project7";
 import Project8 from "./project8/project8";
 import Project9 from "./project9/project9";
+import Project10 from "./project10/project10";
+
 import "../styles/portfolio.css";
 
-// Import required modules
 import SpringModal from "./project1/modal";
 import transition from "../transition";
 
-// Import project content
 import {
   project1Content,
   project2Content,
@@ -25,7 +25,10 @@ import {
   project7Content,
   project8Content,
   project9Content,
+  project10Content
 } from "./project1/contentFiles";
+
+
 function Portfolio() {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
@@ -38,7 +41,7 @@ function Portfolio() {
   return (
     <div className="portfolio">
       <div className="portfolioContent">
-        <h1 className="portfolioTitle">PROJECTS</h1>
+        <h1 className="heading portfolioTitle">PROJECTS</h1>
         <div className="projects">
           <div onClick={() => handleProjectClick(project1Content)}>
             <Project1 />
@@ -66,6 +69,9 @@ function Portfolio() {
           </div>
           <div onClick={() => handleProjectClick(project9Content)}>
             <Project9 />
+          </div>
+          <div onClick={() => handleProjectClick(project10Content)}>
+            <Project10 />
           </div>
         </div>
         {isOpen && (

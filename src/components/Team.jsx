@@ -2,6 +2,7 @@ import React from "react";
 import transition from "../transition";
 import TeamList from "../constants/sunsabMembers.json";
 import MemberCard from "./MemberCard";
+import "../styles/team.css";
 
 function Team() {
   return (
@@ -14,14 +15,7 @@ function Team() {
       </h1>
       <br />
       <div className="row">
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(3, 1fr)",
-            gridRowGap: "90px",
-            gridColumnGap: "200px",
-          }}
-        >
+        <div className="team-grid">
           {TeamList.map((member) => (
             <MemberCard key={member.id} {...member} />
           ))}

@@ -7,46 +7,38 @@ import { Link } from "react-router-dom";
 
 function Services() {
   return (
-    <div className="pt-5 pb-5" style={{ backgroundColor: "#ffffff" }}>
+    <div className="services-container">
       <div className="container">
         <div className="row">
-          <div className="section-head col-sm-12" id="service">
+          <div className="content section-head">
             <h1 className="heading">Vision</h1>
-            <p>
-            We aspire to develop innovative solutions that empower individuals
-            and businesses to thrive in a rapidly evolving digital landscape.
+            <p style={{fontSize: "22px", margin: "10px 30px"}}>
+              We aspire to develop innovative solutions that empower individuals
+              and businesses to thrive in a rapidly evolving digital landscape.
             </p>
           </div>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(3, 1fr)",
-              gridGap: 20,
-              marginLeft: "150px",
-              marginRight: "150px",
-            }}
-          >
-            <div className="column" style={{ paddingLeft: "10px" }}>
+          <div className="services-grid">
+            <div className="service-item">
               <Link to="/portfolio">
                 <div className="item">
+                  <ComputerIcon style={{ color: "#FED136", fontSize: 60 }} />
                   <h6>PROJECTS</h6>
-                  <ComputerIcon style={{ color: "#FED136", fontSize: 100 }} />
                 </div>
               </Link>
             </div>
-            <div className="column">
+            <div className="service-item">
               <Link to="/team">
                 <div className="item">
+                  <PersonIcon style={{ color: "#FED136", fontSize: 60 }} />
                   <h6>THE TEAM</h6>
-                  <PersonIcon style={{ color: "#FED136", fontSize: 100 }} />
                 </div>
               </Link>
             </div>
-            <div className="column" style={{ paddingRight: "10px" }}>
+            <div className="service-item">
               <Link to="/expertise">
                 <div className="item">
+                  <SettingsIcon style={{ color: "#FED136", fontSize: 60 }} />
                   <h6>OUR EXPERTISE</h6>
-                  <SettingsIcon style={{ color: "#FED136", fontSize: 100 }} />
                 </div>
               </Link>
             </div>

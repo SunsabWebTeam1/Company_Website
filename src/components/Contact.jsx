@@ -90,7 +90,7 @@ function Contact() {
             name="user_name"
             id="outlined-multiline-flexible-uncontrolled"
             className="customTextField"
-            sx={{ marginTop: "8vh", width: "60vh", color: "black" }}
+            sx={{ marginTop: "10px" }}
             label="Name"
             multiline
             rows={1}
@@ -106,7 +106,7 @@ function Contact() {
             className="customTextField"
             label="Email"
             multiline
-            sx={{ marginTop: "5vh", width: "60vh" }}
+            sx={{ marginTop: "10px" }}
             rows={1}
             inputProps={{ style: { textTransform: "none" } }}
             required
@@ -125,7 +125,7 @@ function Contact() {
             className="customTextField"
             label="Message"
             multiline
-            sx={{ marginTop: "5vh", width: "60vh" }}
+            sx={{ marginTop: "10px"}}
             rows={12}
             inputProps={{ style: { textTransform: "none" } }}
             InputLabelProps={{

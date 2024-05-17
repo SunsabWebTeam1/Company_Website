@@ -20,7 +20,7 @@
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
   cursor: default;
   width: 80%;
-  max-height: 100vh;
+  max-height: 90vh;
   overflow-y: auto;
 }
 
@@ -97,9 +97,6 @@
 
 @media (max-width: 480px) {
   .techStack {
-    display: flex;
-  }
-  .wordContent p {
-    font-size: x-small;
+    grid-template-columns: 1fr;
   }
 }

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 
 function Navbar() {
-  const isMobile = useMediaQuery("(max-width:768px)"); // Adjust the breakpoint as needed
+  const isMobile = useMediaQuery("(max-width:600px)"); // Adjust the breakpoint as needed
   const [anchorEl, setAnchorEl] = React.useState(null);
 
   const handleMenuOpen = (event) => {

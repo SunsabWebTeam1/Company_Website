@@ -24,9 +24,9 @@ function Footer() {
                 Calgary, Alberta
                 <br />
                 Canada <br />
-                <strong>Phone:</strong> +123-456-7890
+                <strong>Phone:</strong> +1 403-992-9021
                 <br />
-                <strong>Email:</strong> info@example.com
+                <strong>Email:</strong> sales@sunsab.com
                 <br />
               </p>
             </div>

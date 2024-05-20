@@ -1,6 +1,6 @@
 .expertise {
-  background-color: #f9f9f9;
-  padding: 50px 0;
+  background-color: #ffffff;
+  padding: 20px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -166,7 +166,7 @@
 
   .expertiseContentWords ul {
     width: 100%;
-    margin: 10px 0;
+    margin: 10px 20px;
   }
 
   .expertiseCirlceContent {
@@ -177,7 +177,6 @@
   .expertiseCirlce {
     width: 120px;
     height: 120px;
-    margin-bottom: 20px;
   }
 
   .expertiseCirlceNumber {
@@ -196,6 +195,11 @@
   .expertiseSkillsBox {
     margin: 0 10px 20px;
   }
+
+  .expertiseCirlceContent {
+    margin: 0px 20px
+  }
+  
 }
 
 @media (max-width: 480px) {
@@ -216,8 +220,13 @@
   }
 
   .expertiseCirlce {
+    margin-top: 10px;
     width: 100px;
     height: 100px;
+  }
+
+  .expertiseCirlceContent {
+    margin: 0px 20px;
   }
 
   .expertiseCirlceNumber {

@@ -1,9 +1,6 @@
 import React from "react";
 import './portfolio-project.css';
 
-// Import images
-import proj1 from './project1img/proj1.png';
-
 function Project1() {
   return (
     <div className="project-container">

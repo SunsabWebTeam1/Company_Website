@@ -9,8 +9,9 @@ function Team() {
     <section
       className="team"
       style={{ background: "#fff", paddingBottom: "20px" }}
+      id="team"
     >
-      <h1 className="heading" style={{ marginTop: "7rem" }} id="team">
+      <h1 className="heading">
         OUR TEAM
       </h1>
       <br />

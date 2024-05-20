@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { FaRegWindowClose } from "react-icons/fa";
 import "./modal.css"; // Importing the CSS file

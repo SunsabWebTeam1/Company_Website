@@ -1,10 +1,11 @@
 import React from "react";
-import { AppBar, Toolbar, Typography, IconButton, Menu, MenuItem, useMediaQuery } from "@mui/material";
-import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
+import { AppBar, Toolbar, IconButton, Menu, MenuItem, useMediaQuery } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
+import Logo from "../images/logo2.svg";
 
 function Navbar() {
-  const isMobile = useMediaQuery("(max-width:600px)"); // Adjust the breakpoint as needed
+  const isMobile = useMediaQuery("(max-width:768px)"); // Adjust the breakpoint as needed
   const [anchorEl, setAnchorEl] = React.useState(null);
 
   const handleMenuOpen = (event) => {
@@ -17,40 +18,42 @@ function Navbar() {
 
   return (
     <AppBar position="fixed" sx={{ backgroundColor: "#0E1011" }}>
-      <Toolbar>
+      <Toolbar style={{ minHeight: "80px" }}>
         <img
-          src={require("../images/logo.png")}
+          src={Logo}
           alt="Logo"
           style={{ height: "50px", marginRight: "auto" }}
         />
         {!isMobile ? (
-          <>
-            <Typography variant="h5" sx={{ marginLeft: "30px" }}>
-              <Link to="/landingpage" style={{ textDecoration: "none", color: "inherit" }}>
-                Home
-              </Link>
-            </Typography>
-            <Typography variant="h5" sx={{ marginLeft: "30px" }}>
-              <Link to="/expertise" style={{ textDecoration: "none", color: "inherit" }}>
-                Expertise
-              </Link>
-            </Typography>
-            <Typography variant="h5" sx={{ marginLeft: "30px" }}>
-              <Link to="/portfolio" style={{ textDecoration: "none", color: "inherit" }}>
-                Projects
-              </Link>
-            </Typography>
-            <Typography variant="h5" sx={{ marginLeft: "30px" }}>
-              <Link to="/team" style={{ textDecoration: "none", color: "inherit" }}>
-                Team
-              </Link>
-            </Typography>
-            <Typography variant="h5" sx={{ marginLeft: "30px" }}>
-              <Link to="/contact" style={{ textDecoration: "none", color: "inherit" }}>
-                Contact
-              </Link>
-            </Typography>
-          </>
+            <nav className="navbar">
+              <ul>
+                <li>
+                  <ScrollLink to="home" smooth={true} duration={500}>
+                    Home
+                  </ScrollLink>
+                </li>
+                <li>
+                  <ScrollLink to="expertise" smooth={true} duration={500}>
+                    Expertise
+                  </ScrollLink>
+                </li>
+                <li>
+                  <ScrollLink to="projects" smooth={true} duration={500}>
+                    Projects
+                  </ScrollLink>
+                </li>
+                <li> 
+                  <ScrollLink to="team" smooth={true} duration={500}>
+                    Team
+                  </ScrollLink>
+                </li>
+                <li>
+                  <ScrollLink to="contact" smooth={true} duration={500}>
+                    Contact
+                  </ScrollLink>
+                </li>
+              </ul>
+            </nav>
         ) : (
           <>
             <IconButton
@@ -76,29 +79,29 @@ function Navbar() {
               }}
             >
               <MenuItem onClick={handleMenuClose}>
-                <Link to="/landingpage" style={{ textDecoration: "none", color: "inherit" }}>
+                <ScrollLink to="home" smooth={true} duration={500}>
                   Home
-                </Link>
+                </ScrollLink>
               </MenuItem>
               <MenuItem onClick={handleMenuClose}>
-                <Link to="/expertise" style={{ textDecoration: "none", color: "inherit" }}>
+                <ScrollLink to="expertise" smooth={true} duration={500}>
                   Expertise
-                </Link>
+                </ScrollLink>
               </MenuItem>
               <MenuItem onClick={handleMenuClose}>
-                <Link to="/portfolio" style={{ textDecoration: "none", color: "inherit" }}>
-                  Portfolio
-                </Link>
+                <ScrollLink to="projects" smooth={true} duration={500}>
+                  Projects
+                </ScrollLink>
               </MenuItem>
               <MenuItem onClick={handleMenuClose}>
-                <Link to="/team" style={{ textDecoration: "none", color: "inherit" }}>
+                <ScrollLink to="team" smooth={true} duration={500}>
                   Team
-                </Link>
+                </ScrollLink>
               </MenuItem>
               <MenuItem onClick={handleMenuClose}>
-                <Link to="/contact" style={{ textDecoration: "none", color: "inherit" }}>
+                <ScrollLink to="contact" smooth={true} duration={500}>
                   Contact
-                </Link>
+                </ScrollLink>
               </MenuItem>
             </Menu>
           </>

@@ -65,14 +65,15 @@ function Contact() {
     <div className="contact">
       <div className="contactContent">
         <h1 className="heading contactContenTitle">CONTACT US</h1>
+        
         <div className="contactContentInfo">
           <div className="contactContentInfoFlex">
             <PhoneIcon style={{ marginRight: "10px", fontSize: '2rem' }} />
-            <p>+1 999 999 9999</p>
+            <p>+1 403-992-9021</p>
           </div>
           <div className="contactContentInfoFlex">
             <EmailIcon style={{ marginRight: "10px", fontSize: '2rem' }} />
-            <p>sunsab@sunsab.com</p>
+            <p>sales@sunsab.com</p>
           </div>
           <div className="contactContentInfoFlex">
             <LocationOnIcon style={{ marginRight: "10px", fontSize: '2rem' }} />

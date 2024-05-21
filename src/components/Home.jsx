@@ -1,7 +1,7 @@
 import React from "react";
 import transition from "../transition";
-import About from "./About";
-import "../index.css"
+import "../index.css";
+
 function Home() {
   return (
     <section id="home" className="home">

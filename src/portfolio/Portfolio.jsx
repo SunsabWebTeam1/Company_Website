@@ -15,18 +15,7 @@ import "../styles/portfolio.css";
 import SpringModal from "./project1/modal";
 import transition from "../transition";
 
-import {
-  project1Content,
-  project2Content,
-  project3Content,
-  project4Content,
-  project5Content,
-  project6Content,
-  project7Content,
-  project8Content,
-  project9Content,
-  project10Content
-} from "./project1/contentFiles";
+import { project1Content, project2Content, project3Content, project4Content, project5Content, project6Content, project7Content, project8Content, project9Content, project10Content } from "./project1/contentFiles";
 
 
 function Portfolio() {
@@ -43,34 +32,34 @@ function Portfolio() {
       <div className="portfolioContent">
         <h1 className="heading portfolioTitle">PROJECTS</h1>
         <div className="projects">
-          <div onClick={() => handleProjectClick(project1Content)}>
+          <div onClick={() => handleProjectClick(project1Content)}  className="item-project">
             <Project1 />
           </div>
-          <div onClick={() => handleProjectClick(project2Content)}>
+          <div onClick={() => handleProjectClick(project2Content)} className="item-project">
             <Project2 />
           </div>
-          <div onClick={() => handleProjectClick(project3Content)}>
+          <div onClick={() => handleProjectClick(project3Content)} className="item-project">
             <Project3 />
           </div>
-          <div onClick={() => handleProjectClick(project4Content)}>
+          <div onClick={() => handleProjectClick(project4Content)} className="item-project">
             <Project4 />
           </div>
-          <div onClick={() => handleProjectClick(project5Content)}>
+          <div onClick={() => handleProjectClick(project5Content)} className="item-project">
             <Project5 />
           </div>
-          <div onClick={() => handleProjectClick(project6Content)}>
+          <div onClick={() => handleProjectClick(project6Content)} className="item-project">
             <Project6 />
           </div>
-          <div onClick={() => handleProjectClick(project7Content)}>
+          <div onClick={() => handleProjectClick(project7Content)} className="item-project">
             <Project7 />
           </div>
-          <div onClick={() => handleProjectClick(project8Content)}>
+          <div onClick={() => handleProjectClick(project8Content)} className="item-project">
             <Project8 />
           </div>
-          <div onClick={() => handleProjectClick(project9Content)}>
+          <div onClick={() => handleProjectClick(project9Content)} className="item-project">
             <Project9 />
           </div>
-          <div onClick={() => handleProjectClick(project10Content)}>
+          <div onClick={() => handleProjectClick(project10Content)} className="item-project">
             <Project10 />
           </div>
         </div>

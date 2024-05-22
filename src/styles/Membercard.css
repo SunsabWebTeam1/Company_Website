@@ -41,8 +41,8 @@ img {
 
 /*=============== CARD ===============*/
 .card__img {
-  width: 100%;
-  height: auto;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
 }
 

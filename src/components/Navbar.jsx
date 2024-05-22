@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { AppBar, Toolbar, IconButton, Menu, MenuItem, useMediaQuery } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import Logo from "../images/logo2.svg";
 
 function Navbar() {
-  const isMobile = useMediaQuery("(max-width:768px)"); // Adjust the breakpoint as needed
-  const [anchorEl, setAnchorEl] = React.useState(null);
+  const isMobile = useMediaQuery("(max-width:768px)");
+  const [anchorEl, setAnchorEl] = useState(null);
+  const [activeSection, setActiveSection] = useState("");
 
   const handleMenuOpen = (event) => {
     setAnchorEl(event.currentTarget);
@@ -15,6 +16,38 @@ function Navbar() {
   const handleMenuClose = () => {
     setAnchorEl(null);
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = ["home", "expertise", "projects", "team", "contact"];
+      const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+      for (let i = sections.length - 1; i >= 0; i--) {
+        const sectionElement = document.getElementById(sections[i]);
+        if (sectionElement) {
+          const sectionTop = sectionElement.offsetTop;
+          const sectionBottom = sectionTop + sectionElement.offsetHeight;
+
+          if (scrollPosition >= sectionTop - 100 && scrollPosition < sectionBottom) {
+            setActiveSection(sections[i]);
+            break;
+          }
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const getNavItemStyle = (section) => ({
+    backgroundColor: activeSection === section ? "#FED136" : "transparent",
+    color: activeSection === section ? "#000000" : "#FFFFFF",
+    padding: "10px",
+    borderRadius: "5px",
+  });
+
+  const getNavItemTextColor = (section) => (activeSection === section ? "#000000" : "#FFFFFF");
 
   return (
     <AppBar position="fixed" sx={{ backgroundColor: "#0E1011" }}>
@@ -25,35 +58,35 @@ function Navbar() {
           style={{ height: "50px", marginRight: "auto" }}
         />
         {!isMobile ? (
-            <nav className="navbar">
-              <ul>
-                <li>
-                  <ScrollLink to="home" smooth={true} duration={500}>
-                    Home
-                  </ScrollLink>
-                </li>
-                <li>
-                  <ScrollLink to="expertise" smooth={true} duration={500}>
-                    Expertise
-                  </ScrollLink>
-                </li>
-                <li>
-                  <ScrollLink to="projects" smooth={true} duration={500}>
-                    Projects
-                  </ScrollLink>
-                </li>
-                <li> 
-                  <ScrollLink to="team" smooth={true} duration={500}>
-                    Team
-                  </ScrollLink>
-                </li>
-                <li>
-                  <ScrollLink to="contact" smooth={true} duration={500}>
-                    Contact
-                  </ScrollLink>
-                </li>
-              </ul>
-            </nav>
+          <nav className="navbar">
+            <ul>
+              <li style={getNavItemStyle("home")}>
+                <ScrollLink to="home" smooth={true} duration={500} style={{ color: getNavItemTextColor("home") }}>
+                  Home
+                </ScrollLink>
+              </li>
+              <li style={getNavItemStyle("expertise")}>
+                <ScrollLink to="expertise" smooth={true} duration={500} style={{ color: getNavItemTextColor("expertise") }}>
+                  Expertise
+                </ScrollLink>
+              </li>
+              <li style={getNavItemStyle("projects")}>
+                <ScrollLink to="projects" smooth={true} duration={500} style={{ color: getNavItemTextColor("projects") }}>
+                  Projects
+                </ScrollLink>
+              </li>
+              <li style={getNavItemStyle("team")}>
+                <ScrollLink to="team" smooth={true} duration={500} style={{ color: getNavItemTextColor("team") }}>
+                  Team
+                </ScrollLink>
+              </li>
+              <li style={getNavItemStyle("contact")}>
+                <ScrollLink to="contact" smooth={true} duration={500} style={{ color: getNavItemTextColor("contact") }}>
+                  Contact
+                </ScrollLink>
+              </li>
+            </ul>
+          </nav>
         ) : (
           <>
             <IconButton
@@ -78,28 +111,28 @@ function Navbar() {
                 horizontal: "center",
               }}
             >
-              <MenuItem onClick={handleMenuClose}>
-                <ScrollLink to="home" smooth={true} duration={500}>
+              <MenuItem onClick={handleMenuClose} style={getNavItemStyle("home")}>
+                <ScrollLink to="home" smooth={true} duration={500} style={{ color: getNavItemTextColor("home") }}>
                   Home
                 </ScrollLink>
               </MenuItem>
-              <MenuItem onClick={handleMenuClose}>
-                <ScrollLink to="expertise" smooth={true} duration={500}>
+              <MenuItem onClick={handleMenuClose} style={getNavItemStyle("expertise")}>
+                <ScrollLink to="expertise" smooth={true} duration={500} style={{ color: getNavItemTextColor("expertise") }}>
                   Expertise
                 </ScrollLink>
               </MenuItem>
-              <MenuItem onClick={handleMenuClose}>
-                <ScrollLink to="projects" smooth={true} duration={500}>
+              <MenuItem onClick={handleMenuClose} style={getNavItemStyle("projects")}>
+                <ScrollLink to="projects" smooth={true} duration={500} style={{ color: getNavItemTextColor("projects") }}>
                   Projects
                 </ScrollLink>
               </MenuItem>
-              <MenuItem onClick={handleMenuClose}>
-                <ScrollLink to="team" smooth={true} duration={500}>
+              <MenuItem onClick={handleMenuClose} style={getNavItemStyle("team")}>
+                <ScrollLink to="team" smooth={true} duration={500} style={{ color: getNavItemTextColor("team") }}>
                   Team
                 </ScrollLink>
               </MenuItem>
-              <MenuItem onClick={handleMenuClose}>
-                <ScrollLink to="contact" smooth={true} duration={500}>
+              <MenuItem onClick={handleMenuClose} style={getNavItemStyle("contact")}>
+                <ScrollLink to="contact" smooth={true} duration={500} style={{ color: getNavItemTextColor("contact") }}>
                   Contact
                 </ScrollLink>
               </MenuItem>

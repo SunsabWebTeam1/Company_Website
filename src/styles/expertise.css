@@ -23,9 +23,10 @@
 
 .expertiseSubTitle {
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   color: #0e1011;
   margin-bottom: 40px;
+  letter-spacing: 2px;
 }
 
 .subTitleOfList {
@@ -144,11 +145,31 @@
   border-radius: 50%;
   border: 1px solid #0e1011;
   transition: transform 0.3s ease-in-out;
+  cursor: pointer
 }
 
 .expertiseSkillsBox img:hover {
   transform: scale(1.2);
 }
+
+.skillInfo {
+  position: absolute;
+  background-color: white;
+  display: block;
+  cursor: pointer;
+  width: fit-content;
+  border: 1px solid #b9b6b6;
+  border-radius: 10px;
+  padding: 10px;
+  transform: translateX(50px) translateY(-120px);
+  z-index: 1;
+}
+.skillInfo p {
+  font-size: 16px;
+}
+
+
+
 
 /*Media query for mobile app */
 @media (max-width: 768px) {

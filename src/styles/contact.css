@@ -73,6 +73,16 @@
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-top: 5vh;
+  width: 15vw;
+  letter-spacing: 3px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contactContentInputContent button:hover {

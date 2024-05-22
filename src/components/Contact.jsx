@@ -133,26 +133,15 @@ function Contact() {
               style: { fontSize: "14px" },
             }}
           />
-          <Button
-            type="submit"
-            value="Send"
-            variant="contained"
-            sx={{
-              marginTop: "5vh",
-              width: "20vh",
-              height: "5vh",
-              color: "black",
-              backgroundColor: "#FED136",
-              "&:hover": {
-                backgroundColor: "#FED136",
-              },
-              fontSize: "1.5rem",
-              letterSpacing: "3px",
-              fontFamily: "Montserrat",
-            }}
-          >
-            {submitStatus === "loading" ? "Loading..." : "SEND"}
-          </Button>
+          <div className="contact-button">
+            <Button
+              type="submit"
+              value="Send"
+              variant="contained"
+            >
+              {submitStatus === "loading" ? "Loading..." : "SEND"}
+            </Button>
+          </div>
           {submitStatus === "success" && (
             <p style={{ fontSize: "16px", marginTop: "20px", color: "green" }}>
               Email sent successfully!

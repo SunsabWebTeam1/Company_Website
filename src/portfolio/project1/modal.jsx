@@ -21,7 +21,7 @@ const SpringModal = ({ isOpen, setIsOpen, content }) => {
                     className="modal-backdrop"
                 >
                     <motion.div
-                        initial={{ scale: 0, rotate: "12.5deg" }}
+                        // initial={{ scale: 0, rotate: "12.5deg" }}
                         animate={{ scale: 1, rotate: "0deg" }}
                         exit={{ scale: 0, rotate: "0deg" }}
                         onClick={(e) => e.stopPropagation()}

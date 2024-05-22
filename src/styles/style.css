@@ -158,12 +158,12 @@ body {
 
 .header .navbar ul li a {
   font-size: 18px;
-  color: #fff;
+  /* color: #fff; */
 }
 
 .header .navbar ul li a:hover {
-  color: #FED136;
-  text-decoration: underline;
+  /* color: #FED136; */
+  /* text-decoration: underline; */
   cursor: pointer;
 }
 

@@ -5,8 +5,8 @@ import Expertise from "./Expertise";
 import Portfolio from "../portfolio/Portfolio";
 import Team from "./Team";
 import Contact from "./Contact";
-import About from "./About"
-import Service from "./Services"
+import About from "./About";
+import Service from "./Services";
 
 import "../App.css";
 
@@ -27,14 +27,14 @@ function LandingPage() {
       <Element name="about">
         <About />
       </Element>
-      <Element name="Service">
-        <Service/>
+      <Element name="service">
+        <Service />
       </Element>
       <Element name="expertise">
         <Expertise />
       </Element>
-      <Element name="portfoilo">
-        <Portfolio/>
+      <Element name="projects">
+        <Portfolio />
       </Element>
       <Element name="team">
         <Team />

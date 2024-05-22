@@ -22,13 +22,12 @@ function Portfolio() {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
 
-  // Handle project click and open modal with corresponding content
   const handleProjectClick = (projectContent) => {
     setSelectedProject(projectContent);
     setIsOpen(true);
   };
   return (
-    <div className="portfolio">
+    <div className="portfolio" id="projects">
       <div className="portfolioContent">
         <h1 className="heading portfolioTitle">PROJECTS</h1>
         <div className="projects">

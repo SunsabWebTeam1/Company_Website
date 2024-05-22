@@ -62,7 +62,7 @@ function Contact() {
   };
 
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <div className="contactContent">
         <h1 className="heading contactContenTitle">CONTACT US</h1>
         
@@ -75,13 +75,13 @@ function Contact() {
             <EmailIcon style={{ marginRight: "10px", fontSize: '2rem' }} />
             <p>sales@sunsab.com</p>
           </div>
-          <div className="contactContentInfoFlex">
+          {/* <div className="contactContentInfoFlex">
             <LocationOnIcon style={{ marginRight: "10px", fontSize: '2rem' }} />
             <p>Address: 1235 Street NW, Calgary, AB, Canada</p>
-          </div>
+          </div> */}
         </div>
 
-        <form
+        {/* <form
           ref={form}
           onSubmit={sendEmail}
           className="contactContentInputContent"
@@ -152,7 +152,7 @@ function Contact() {
               Failed to send email. Please try again.
             </p>
           )}
-        </form>
+        </form> */}
       </div>
     </div>
   );

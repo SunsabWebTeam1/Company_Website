@@ -8,11 +8,18 @@
     
   },
   {
-    "id": 2,
-    "name": "Anwar Alabbas",
-    "title": "Manager, Software Development",
-    "img": "Anwar.jpg",
-    "linkedin": "https://www.linkedin.com/in/anwar-alabbas/"
+    "id": 7,
+    "name": "Anna Dominique Punzalan",
+    "title": "Associate, Business Development",
+    "img": "Anna.jpg",
+    "linkedin": "https://www.linkedin.com/in/dominique-punzalan-187411210"
+  },
+  {
+    "id": 8,
+    "name": "Pranjal Jain",
+    "title": "Associate, Business Development",
+    "img": "Pranjal.jpg",
+    "linkedin": "https://ca.linkedin.com/in/pranjal-jain-8386762a9"
   },
   {
     "id": 3,
@@ -22,14 +29,7 @@
     "linkedin": "https://www.linkedin.com/in/ahmed-hijazi49/"
     
   },
-  {
-    "id": 4,
-    "name": "Angelo Fernando",
-    "title": "Associate, Product Owner",
-    "img": "person.jpg",
-    "linkedin": "https://www.linkedin.com/in/angelo-fernando-209088259/"
-    
-  },
+  
   {
     "id": 5,
     "name": "Dean Hulkenberg",
@@ -45,20 +45,7 @@
     "img": "Tyler.jpg",
     "linkedin": "https://www.linkedin.com/in/tyler-thai-le/"
   },
-  {
-    "id": 7,
-    "name": "Anna Dominique Punzalan",
-    "title": "Associate, Business Development",
-    "img": "Anna.jpg",
-    "linkedin": "https://www.linkedin.com/in/dominique-punzalan-187411210"
-  },
-  {
-    "id": 8,
-    "name": "Pranjal Jain",
-    "title": "Associate, Business Development",
-    "img": "Pranjal.jpg",
-    "linkedin": "https://ca.linkedin.com/in/pranjal-jain-8386762a9"
-  },
+  
   {
     "id": 9,
     "name": "James Sundby",
@@ -88,13 +75,7 @@
     "img": "Paradon.jpg",
     "linkedin": "https://www.linkedin.com/in/paradonmeeanan/"
   },
-  {
-    "id": 13,
-    "name": "Rianne Hempsall",
-    "title": "Associate, Frontend Development",
-    "img": "person.jpg",
-    "linkedin": "https://www.linkedin.com/in/rianne-hempsall-5b268a221/"
-  },
+  
   {
     "id": 14,
     "name": "Anthony Magpantay",
@@ -143,5 +124,27 @@
     "title": "Associate, Backend Development",
     "img": "Trien.jpg",
     "linkedin": "https://www.linkedin.com/in/trien-xuong-lu/"
+  },
+  {
+    "id": 2,
+    "name": "Anwar Alabbas",
+    "title": "Manager, Software Development",
+    "img": "Anwar.jpg",
+    "linkedin": "https://www.linkedin.com/in/anwar-alabbas/"
+  },
+  {
+    "id": 4,
+    "name": "Angelo Fernando",
+    "title": "Associate, Product Owner",
+    "img": "person.jpg",
+    "linkedin": "https://www.linkedin.com/in/angelo-fernando-209088259/"
+    
+  },
+  {
+    "id": 13,
+    "name": "Rianne Hempsall",
+    "title": "Associate, Frontend Development",
+    "img": "person.jpg",
+    "linkedin": "https://www.linkedin.com/in/rianne-hempsall-5b268a221/"
   }
 ]

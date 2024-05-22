@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="footer">
-      <div className="footer-top">
+    <div className="footer" style={{ backgroundColor: "black"}}>
+      {/* <div className="footer-top">
         <div className="container">
           <div
             className="row"
@@ -32,16 +32,19 @@ function Footer() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="container">
+      <div className="container" >
         <div className="row align-items-center">
           <div
-            className="col-md-6 copyright"
+            className=" copyright"
             style={{
-              color: "#0e1011",
+              color: "white",
               fontSize: "1.3rem",
               paddingLeft: "25px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center"
             }}
           >
             Copyright &copy; 2024 Sunsab Website. All Rights Reserved.

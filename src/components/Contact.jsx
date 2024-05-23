@@ -5,61 +5,61 @@ import transition from "../transition";
 
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
+// import LocationOnIcon from "@mui/icons-material/LocationOn";
 
-import TextField from "@mui/material/TextField";
-import Button from "@mui/material/Button";
+// import TextField from "@mui/material/TextField";
+// import Button from "@mui/material/Button";
 
 function Contact() {
   const form = useRef();
-  const [emailError, setEmailError] = useState("");
-  const [submitStatus, setSubmitStatus] = useState("");
+  // const [emailError, setEmailError] = useState("");
+  // const [submitStatus, setSubmitStatus] = useState("");
 
-  const handleEmailChange = (e) => {
-    const emailValue = e.target.value;
-    const emailRegex = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
+  // const handleEmailChange = (e) => {
+  //   const emailValue = e.target.value;
+  //   const emailRegex = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
 
-    if (!emailRegex.test(emailValue)) {
-      setEmailError("Please enter a valid email address");
-    } else {
-      setEmailError("");
-    }
-  };
+  //   if (!emailRegex.test(emailValue)) {
+  //     setEmailError("Please enter a valid email address");
+  //   } else {
+  //     setEmailError("");
+  //   }
+  // };
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
 
-    const emailRegex = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
-    const emailValue = form.current.user_email.value;
+  //   const emailRegex = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
+  //   const emailValue = form.current.user_email.value;
 
-    if (!emailRegex.test(emailValue)) {
-      setSubmitStatus("fail");
-      setEmailError("Please enter a valid email address");
-      return;
-    }
+  //   if (!emailRegex.test(emailValue)) {
+  //     setSubmitStatus("fail");
+  //     setEmailError("Please enter a valid email address");
+  //     return;
+  //   }
 
-    setSubmitStatus("loading");
+  //   setSubmitStatus("loading");
 
-    emailjs
-      .sendForm(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
-        form.current,
-        {
-          publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
-        }
-      )
-      .then(
-        () => {
-          setSubmitStatus("success");
-          console.log("SUCCESS!");
-        },
-        (error) => {
-          setSubmitStatus("fail");
-          console.log("FAILED...", error.text);
-        }
-      );
-  };
+  //   emailjs
+  //     .sendForm(
+  //       process.env.REACT_APP_EMAILJS_SERVICE_ID,
+  //       process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+  //       form.current,
+  //       {
+  //         publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
+  //       }
+  //     )
+  //     .then(
+  //       () => {
+  //         setSubmitStatus("success");
+  //         console.log("SUCCESS!");
+  //       },
+  //       (error) => {
+  //         setSubmitStatus("fail");
+  //         console.log("FAILED...", error.text);
+  //       }
+  //     );
+  // };
 
   return (
     <div id="contact" className="contact">

@@ -1,5 +1,5 @@
-import React, { useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
+import React from "react";
+// import emailjs from "@emailjs/browser";
 import "../styles/contact.css";
 import transition from "../transition";
 
@@ -11,7 +11,7 @@ import EmailIcon from "@mui/icons-material/Email";
 // import Button from "@mui/material/Button";
 
 function Contact() {
-  const form = useRef();
+  // const form = useRef();
   // const [emailError, setEmailError] = useState("");
   // const [submitStatus, setSubmitStatus] = useState("");
 

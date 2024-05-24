@@ -31,6 +31,15 @@
   },
   
   {
+    "id": 4,
+    "name": "Angelo Fernando",
+    "title": "Associate, Product Owner",
+    "img": "Angelo.jpg",
+    "linkedin": "https://www.linkedin.com/in/angelo-fernando-209088259/"
+    
+  },
+  
+  {
     "id": 5,
     "name": "Dean Hulkenberg",
     "title": "Associate, Product Owner",
@@ -132,14 +141,7 @@
     "img": "Anwar.jpg",
     "linkedin": "https://www.linkedin.com/in/anwar-alabbas/"
   },
-  {
-    "id": 4,
-    "name": "Angelo Fernando",
-    "title": "Associate, Product Owner",
-    "img": "person.jpg",
-    "linkedin": "https://www.linkedin.com/in/angelo-fernando-209088259/"
-    
-  },
+  
   {
     "id": 13,
     "name": "Rianne Hempsall",

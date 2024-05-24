@@ -29,23 +29,19 @@
     "linkedin": "https://www.linkedin.com/in/ahmed-hijazi49/"
     
   },
-  
   {
     "id": 4,
     "name": "Angelo Fernando",
     "title": "Associate, Product Owner",
     "img": "Angelo.jpg",
     "linkedin": "https://www.linkedin.com/in/angelo-fernando-209088259/"
-    
   },
-  
   {
     "id": 5,
     "name": "Dean Hulkenberg",
     "title": "Associate, Product Owner",
     "img": "Dean.jpg",
     "linkedin": "https://www.linkedin.com/in/dean-hulkenberg-4b2527257/"
-    
   },
   {
     "id": 6,
@@ -54,7 +50,6 @@
     "img": "Tyler.jpg",
     "linkedin": "https://www.linkedin.com/in/tyler-thai-le/"
   },
-  
   {
     "id": 9,
     "name": "James Sundby",

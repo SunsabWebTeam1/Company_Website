@@ -104,12 +104,8 @@ const project5Content = {
       alt: "Image 3 for carousel"
     },
     {
-      src: require(".././project5/project5img/projthum.png"),
-      alt: "Image 3 for carousel"
-    },
-    {
-      src: require(".././project5/project5img/projthum.png"),
-      alt: "Image 3 for carousel"
+      src: require(".././project5/project5img/proj4.png"),
+      alt: "Image 4 for carousel"
     }
   ]
 };

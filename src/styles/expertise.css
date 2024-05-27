@@ -172,7 +172,7 @@
 
 
 /*Media query for mobile app */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .expertiseTitle {
     font-size: 28px;
   }

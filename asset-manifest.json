@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.107d7336.css",
-    "main.js": "/static/js/main.a75af1b5.js",
+    "main.css": "/static/css/main.fdbb229a.css",
+    "main.js": "/static/js/main.5f4c9e25.js",
     "static/media/Paradon-NEW.jpg": "/static/media/Paradon-NEW.8ddf694914d9cc55ac02.jpg",
     "static/media/LP-Image.png": "/static/media/LP-Image.1023a7156992de35177d.png",
     "static/media/Dean.jpg": "/static/media/Dean.fe6525eb1cdaee4a5067.jpg",
@@ -12,13 +12,13 @@
     "static/media/Anthony.jpg": "/static/media/Anthony.7854a73cf0674dff19c4.jpg",
     "static/media/James.jpg": "/static/media/James.d72370065938fdfd8dcb.jpg",
     "static/media/Martin-1.jpg": "/static/media/Martin-1.e8aa0bfd407bb48b407f.jpg",
-    "static/media/proj2.png": "/static/media/proj2.fb329a4c0a973e778059.png",
     "static/media/Austin-NEW.jpg": "/static/media/Austin-NEW.b766fd63f3ddddd88be9.jpg",
-    "static/media/projthum.png": "/static/media/projthum.7f7b9363d476897cead6.png",
+    "static/media/proj4.png": "/static/media/proj4.3a03fd55d3dc0f48647c.png",
     "static/media/Angelo.jpg": "/static/media/Angelo.d9aad55fc2502b808016.jpg",
     "static/media/Martin.jpeg": "/static/media/Martin.9e3e99a937f7f3da0962.jpeg",
     "static/media/proj1.png": "/static/media/proj1.d8952f89b47d4c1021ae.png",
     "static/media/Charles.jpg": "/static/media/Charles.1871b02d1b84f3688067.jpg",
+    "static/media/proj2.png": "/static/media/proj2.fb329a4c0a973e778059.png",
     "static/media/proj3.png": "/static/media/proj3.486efd742de2121aef56.png",
     "static/media/Jhio.jpg": "/static/media/Jhio.409e0004a0134329cf71.jpg",
     "static/media/Devon.jpg": "/static/media/Devon.867515bf210bad3d9984.jpg",
@@ -42,7 +42,6 @@
     "static/media/Drake.jpg": "/static/media/Drake.54c434095078cd8bd6cb.jpg",
     "static/media/Postgresql.png": "/static/media/Postgresql.13ead9276e25fc0d8c89.png",
     "static/media/faq.jpg": "/static/media/faq.05d9c08a7f010e50060b.jpg",
-    "static/media/proj4.png": "/static/media/proj4.3a03fd55d3dc0f48647c.png",
     "static/media/TS.png": "/static/media/TS.659e4b9351cf1baa6930.png",
     "static/media/python.png": "/static/media/python.5e4707bb04be435dace2.png",
     "static/media/Austin.jpg": "/static/media/Austin.824fa13674c842517294.jpg",
@@ -56,13 +55,13 @@
     "static/media/amazon-dynamodb.png": "/static/media/amazon-dynamodb.fc665d2753c94744d5a5.png",
     "static/media/supabase.jpg": "/static/media/supabase.42289d5edf35e1f307e3.jpg",
     "static/media/JS.png": "/static/media/JS.266bd9fb2663dcc057b4.png",
-    "static/media/logo2.svg": "/static/media/logo2.119f461ca994e7bb2b8a58eb33dcb5ad.svg",
+    "static/media/logo2.svg": "/static/media/logo2.57e36ad6da03cecae11b990dd0ed7ab4.svg",
     "index.html": "/index.html",
-    "main.107d7336.css.map": "/static/css/main.107d7336.css.map",
-    "main.a75af1b5.js.map": "/static/js/main.a75af1b5.js.map"
+    "main.fdbb229a.css.map": "/static/css/main.fdbb229a.css.map",
+    "main.5f4c9e25.js.map": "/static/js/main.5f4c9e25.js.map"
   },
   "entrypoints": [
-    "static/css/main.107d7336.css",
-    "static/js/main.a75af1b5.js"
+    "static/css/main.fdbb229a.css",
+    "static/js/main.5f4c9e25.js"
   ]
 }

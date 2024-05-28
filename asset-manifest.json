@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fdbb229a.css",
-    "main.js": "/static/js/main.5f4c9e25.js",
+    "main.js": "/static/js/main.ac2fd281.js",
     "static/media/Paradon-NEW.jpg": "/static/media/Paradon-NEW.8ddf694914d9cc55ac02.jpg",
     "static/media/LP-Image.png": "/static/media/LP-Image.1023a7156992de35177d.png",
     "static/media/Dean.jpg": "/static/media/Dean.fe6525eb1cdaee4a5067.jpg",
@@ -39,9 +39,10 @@
     "static/media/proj5.png": "/static/media/proj5.040098be82e9393c46f9.png",
     "static/media/Pranjal.jpg": "/static/media/Pranjal.7ba9b3d6f099fbf942ae.jpg",
     "static/media/Dean1.jpg": "/static/media/Dean1.45273b6a8cb65aaf13e7.jpg",
-    "static/media/Drake.jpg": "/static/media/Drake.54c434095078cd8bd6cb.jpg",
+    "static/media/Drake1.jpg": "/static/media/Drake1.54c434095078cd8bd6cb.jpg",
     "static/media/Postgresql.png": "/static/media/Postgresql.13ead9276e25fc0d8c89.png",
     "static/media/faq.jpg": "/static/media/faq.05d9c08a7f010e50060b.jpg",
+    "static/media/Drake.png": "/static/media/Drake.a473ce81234cf342315f.png",
     "static/media/TS.png": "/static/media/TS.659e4b9351cf1baa6930.png",
     "static/media/python.png": "/static/media/python.5e4707bb04be435dace2.png",
     "static/media/Austin.jpg": "/static/media/Austin.824fa13674c842517294.jpg",
@@ -58,10 +59,10 @@
     "static/media/logo2.svg": "/static/media/logo2.57e36ad6da03cecae11b990dd0ed7ab4.svg",
     "index.html": "/index.html",
     "main.fdbb229a.css.map": "/static/css/main.fdbb229a.css.map",
-    "main.5f4c9e25.js.map": "/static/js/main.5f4c9e25.js.map"
+    "main.ac2fd281.js.map": "/static/js/main.ac2fd281.js.map"
   },
   "entrypoints": [
     "static/css/main.fdbb229a.css",
-    "static/js/main.5f4c9e25.js"
+    "static/js/main.ac2fd281.js"
   ]
 }

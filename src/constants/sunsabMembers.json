@@ -119,8 +119,15 @@
     "id": 19,
     "name": "Mohamad Saleh",
     "title": "Associate, Backend Development",
-    "img": "Mohamad.jpg",
+    "img": "Mohamad.png",
     "linkedin": "https://www.linkedin.com/in/mohsley/"
+  },
+  {
+    "id": 20,
+    "name": "Trevor Wells",
+    "title": "Associate, Backend Development",
+    "img": "Trevor.jpeg",
+    "linkedin": "/"
   },
   {
     "id": 20,

@@ -23,13 +23,15 @@ body {
 .section-head h1,
 .testimonials .section-header h2,
 .section-head-1 h4 {
-  margin: 2rem;
+  margin: 4rem;
   /* padding-top: 6rem; */
   display: inline-block;
   font-size: 3.5rem;
   color: #0e1011;
   position: relative;
   letter-spacing: 0.2rem;
+  font-family: "Montserrat", sans-serif;
+  
 }
 
 .heading::before, .section-head h1::before {
@@ -181,7 +183,7 @@ body {
 .home {
   min-height: 68vh;
   width: 100vw;
-  background-image: url(../images/LP-Image.png);
+  background-image: url(../images/LP-Image-85.webp);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -242,7 +244,7 @@ body {
   text-align: center;
   position: relative;
   overflow: hidden;
-  line-height: 10rem;
+  line-height: 5rem;
 }
 
 .about .row {

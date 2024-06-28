@@ -1,10 +1,11 @@
 import React from "react";
 import transition from "../transition";
+import "../styles/about.css";
 
 function About() {
   return (
     <section id="about" className="about">
-      <h1 className="heading">About us</h1>
+      <h1 className="heading aboutTitle">ABOUT US</h1>
       <div className="row">
         <div className="content">
           <h3>Sunsab is where innovation fuels passion!</h3>

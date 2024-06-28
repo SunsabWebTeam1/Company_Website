@@ -12,7 +12,7 @@ function Services() {
       <div className="container">
         <div className="row">
           <div className="content section-head">
-            <h1 className="heading">Vision</h1>
+            <h1 className="heading">VISION</h1>
             <p className="vision-paragraph">
               We aspire to develop innovative solutions that empower individuals
               and businesses to thrive in a rapidly evolving digital landscape.

@@ -27,7 +27,7 @@
 }
 
 .project-container div:hover {
-  transform: scale(1.35);
+  transform: scale(1.15);
 }
 
 .project-container {
@@ -100,3 +100,10 @@
 }
 
 
+
+@media (max-width: 480px) {
+  .project-container div:hover {
+    transform: none;
+  }
+
+}

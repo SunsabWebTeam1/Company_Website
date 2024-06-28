@@ -11,6 +11,13 @@
   width: 50vh; /* Set image width to 20% of the container width */
   height: 30vh; /* Allow height to adjust based on content */
 }
+
+@media (max-width: 480px) {
+  .image-container {
+    width: 38vh
+  }
+}
+
 .swiper {
   width: 200px;
   height: 200px;

@@ -1,19 +1,13 @@
 /* General Styles */
 .contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
   background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
-}
-
-.contactContent {
-  max-width: 1200px;
-  padding: 40px;
-  background-color: #fff;
-  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
-  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 .contactContenTitle {
@@ -25,21 +19,54 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.contactContent {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  width: 100%;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.formContent {
+  flex: 2;
+}
+
 .contactContentInfo {
+  flex: 1;
   display: flex;
   flex-direction: column;
+  justify-content: start;
+  padding: 20px;
+  border-left: 1px solid #ddd;
 }
 
 .contactContentInfoFlex {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .contactContentInfoFlex p {
   font-size: 16px;
   color: #0e1011;
+  margin-left: 10px;
 }
+
+.contactContentInfoFlex a.contact-link {
+  font-size: 16px;
+  color: #0077b5; /* LinkedIn blue color */
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.contactContentInfoFlex a.contact-link:hover {
+  text-decoration: underline;
+}
+
 
 /* Form Styles */
 .contactContentInputContent {
@@ -72,32 +99,73 @@
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
+  display: flex;
   transition: background-color 0.3s ease;
   margin-top: 5vh;
-  width: 15vw;
+  width: 150px;
   letter-spacing: 3px;
   font-family: 'Montserrat', sans-serif;
 }
 
-.contact-button {
+/* .contact-button {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .contactContentInputContent button:hover {
   background-color: #EFBB35;
 }
 
 /* Media Queries */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
+  .contactContent {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .contactContentInfo {
+    border-left: none;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+  }
+
   .contactContentInfoFlex {
-    display: flex;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contactContent {
+    padding: 20px 10px;
+  }
+
+  .contactContenTitle {
+    font-size: 28px;
+    margin: 30px 0px;
+  }
+
+  .contactContentInfoFlex {
     align-items: flex-start;
   }
+
   .contactContentInfoFlex p {
-    display: flex;
     margin-left: 0;
     margin-top: 5px;
+  }
+
+  .customTextField input,
+  .customTextField textarea {
+    font-size: 16px;
+  }
+
+  .contactContentInputContent button {
+    padding: 10px 15px;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .contact-button {
+    margin-top: 10px;
   }
 }

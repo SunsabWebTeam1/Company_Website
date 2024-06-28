@@ -33,7 +33,7 @@ function Expertise() {
                 <h3 className="expertiseCirlceWords">{text}</h3>
               </div>
               {index < 3 && (
-                <div className="expertiseSmallCirlce">
+                <div className="expertiseSmallCircle">
                   <ChevronRightSharpIcon style={{ fontSize: "4rem" }} />
                 </div>
               )}

@@ -7,6 +7,7 @@ import Team from "./Team";
 import Contact from "./Contact";
 import About from "./About";
 import Service from "./Services";
+import Blog from "./Blog";
 
 import "../App.css";
 
@@ -38,6 +39,9 @@ function LandingPage() {
       </Element>
       <Element name="team">
         <Team />
+      </Element>
+      <Element name="blog">
+        <Blog/>
       </Element>
       <Element name="contact">
         <Contact />

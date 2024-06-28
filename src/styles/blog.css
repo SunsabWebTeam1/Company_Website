@@ -1,0 +1,122 @@
+.blog {
+    /* background-color: #f9f9f9; */
+    padding: 50px 0;
+}
+
+.blogContent {
+    min-width: 100vw;
+    padding: 0 20px;
+}
+
+.blogTitle {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #0e1011;
+    margin: 50px 0px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .blogPosts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px 50px;
+}
+
+  .blogPost {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+
+
+.blogPost:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.postImage {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.postTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.postDate {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 15px;
+}
+
+.postInfo {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.readMore {
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FED136;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.readMore:hover {
+    background-color: #ffe072;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    .blogPosts {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .blogPosts {
+        grid-template-columns: 1fr;
+    }
+
+    /* .blogContent {
+        margin: 0 20px;
+    } */
+
+    .blogTitle {
+        font-size: 2.5rem;
+        margin: 30px 0px;
+    }
+
+    .blogPost {
+        margin: 0 auto 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .blogContent {
+        padding: 0 10px;
+    }
+
+    .blogTitle {
+        font-size: 2rem;
+        margin: 20px 0px;
+    }
+
+    .readMore {
+        padding: 8px 16px;
+    }
+}

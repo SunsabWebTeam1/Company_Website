@@ -28,7 +28,7 @@ function Navbar() {
     const handleScroll = () => {
       const sections = ["home", "expertise", "projects", "team", "contact"];
       const scrollPosition =
-        window.pageYOffset || document.documentElement.scrollTop;
+        window.scrollY || document.documentElement.scrollTop;
 
       for (let i = sections.length - 1; i >= 0; i--) {
         const sectionElement = document.getElementById(sections[i]);

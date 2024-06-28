@@ -181,9 +181,9 @@ body {
 }
 
 .home {
-  height: 68vh;
-  width: 100vw;
-  background-image: url(../images/LP-Image-85.webp);
+  height: 500px;
+  width: 100%;
+  background-image: url(https://res.cloudinary.com/dlzrlc8hq/image/upload/v1719609508/LP-Image-85_xrio9i.webp);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -1187,7 +1187,7 @@ body {
   }
 
   .home {
-    height: 60vh;
+    height: 500px;
     width: 100%;
   }
 
@@ -1292,7 +1292,7 @@ body {
 
 @media (max-width: 480px) {
   .home {
-    height: 50vh;
+    height: 450px;
     width: 100%;
   }
   .home h1 {

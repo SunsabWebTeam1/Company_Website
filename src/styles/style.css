@@ -1293,8 +1293,7 @@ body {
 @media (max-width: 480px) {
   .home {
     height: 450px;
-    width: 100%;
-    background-image: url(../images/LP-Image-mobile.webp);
+    background-image: url(https://res.cloudinary.com/dlzrlc8hq/image/upload/v1719612233/LP-Image-85_xrio9i.webp);
   }
   .home h1 {
     font-size: 32px;

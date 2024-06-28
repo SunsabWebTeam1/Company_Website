@@ -181,7 +181,7 @@ body {
 }
 
 .home {
-  min-height: 68vh;
+  height: 68vh;
   width: 100vw;
   background-image: url(../images/LP-Image-85.webp);
   background-size: cover;
@@ -1186,6 +1186,11 @@ body {
     font-size: 70%;
   }
 
+  .home {
+    height: 60vh;
+    width: 100%;
+  }
+
   .header .logo img {
     width: 20%;
     height: 3rem;
@@ -1286,7 +1291,10 @@ body {
 }
 
 @media (max-width: 480px) {
-  
+  .home {
+    height: 50vh;
+    width: 100%;
+  }
   .home h1 {
     font-size: 32px;
   }

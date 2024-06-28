@@ -183,7 +183,7 @@ body {
 .home {
   height: 500px;
   width: 100%;
-  background-image: url(https://res.cloudinary.com/dlzrlc8hq/image/upload/v1719609508/LP-Image-85_xrio9i.webp);
+  background-image: url(../images/LP-Image-85.webp);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -1294,6 +1294,7 @@ body {
   .home {
     height: 450px;
     width: 100%;
+    background-image: url(../images/LP-Image-mobile.webp);
   }
   .home h1 {
     font-size: 32px;

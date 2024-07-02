@@ -114,20 +114,5 @@
     "title": "Associate, Backend Development",
     "img": "Trevor.webp",
     "linkedin": "https://www.linkedin.com/in/trevor-wells-976b1b13b/"
-  },
-  {
-    "id": 2,
-    "name": "Anwar Alabbas",
-    "title": "Manager, Software Development",
-    "img": "Anwar.webp",
-    "linkedin": "https://www.linkedin.com/in/anwar-alabbas/"
-  },
-  
-  {
-    "id": 13,
-    "name": "Rianne Hempsall",
-    "title": "Associate, Frontend Development",
-    "img": "person.jpg",
-    "linkedin": "https://www.linkedin.com/in/rianne-hempsall-5b268a221/"
   }
 ]
